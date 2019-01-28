@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="mt-4">
+      <form class="form-inline" [formGroup]="xgteForm">
+        <div class="input-group">
+          <select formControlName="biomeSelect" (change)="onBiomeChange()" class="custom-select">
+            <option *ngFor="let biome of biomes" [value]='biome.index'>{{biome.name}}</option>
+          </select>
+          <select formControlName="rangeSelect" (change)="onRangeChange()" class="custom-select">
+            <option *ngFor="let range of ranges" [value]='range.index'>{{range.name}}</option>
+          </select>
+          <div class="input-group-prepend">
+            <button (click)="onRoll()" class="btn btn-primary" type="button">Roll!</button>
+          </div>
+        </div>
+      </form>
+      <div class="m-3">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">{{getBiome().name + " " + getRange().name}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{output.dice}}</h6>
+            <p class="card-text">{{output.desc}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col mt-4">
+      <table class="table table-sm table-striped">
+        <tbody>
+          <tr *ngFor="let encounter of encounters" >
+            <th style="width: 10%" scope="row">{{encounter.start + " - " + encounter.end}}</th>
+            <td>{{encounter.desc}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
