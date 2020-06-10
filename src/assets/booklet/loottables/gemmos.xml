@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tables>
+    <table>
+        <tab>
+            <item><name>Azurite (opaque mottled deep blue)</name><price>10 gp</price></item>
+            <item><name>Banded agate (translucent striped brown, blue, white, or red)</name><price>10 gp</price></item>
+            <item><name>Blue quartz (transparent pale blue)</name><price>10 gp</price></item>
+            <item><name>Eye agate (translucent circles of gray, white, brown, blue, or green)</name><price>10 gp</price></item>
+            <item><name>Hematite (opaque gray-black)</name><price>10 gp</price></item>
+            <item><name>Lapis lazuli (opaque light and dark blue with yellow flecks)</name><price>10 gp</price></item>
+            <item><name>Malachite (opaque striated light and dark green)</name><price>10 gp</price></item>
+            <item><name>Moss agate (translucent pink or yellow-white with mossy gray or green markings)</name><price>10 gp</price></item>
+            <item><name>Obsidian (opaque black)</name><price>10 gpv</price></item>
+            <item><name>Rhodochrosite (opaque light pink)</name><price>10 gp</price></item>
+            <item><name>Tiger eye (translucent brown with golden center)</name><price>10 gp</price></item>
+            <item><name>Turquoise (opaque light blue-green)</name><price>10 gp</price></item>
+        </tab>
+        <tab>
+            <item><name>Azurite (opaque mottled deep blue)</name><price>10 gp</price></item>
+            <item><name>Banded agate (translucent striped brown, blue, white, or red)</name><price>10 gp</price></item>
+            <item><name>Blue quartz (transparent pale blue)</name><price>10 gp</price></item>
+            <item><name>Eye agate (translucent circles of gray, white, brown, blue, or green)</name><price>10 gp</price></item>
+            <item><name>Hematite (opaque gray-black)</name><price>10 gp</price></item>
+            <item><name>Lapis lazuli (opaque light and dark blue with yellow flecks)</name><price>10 gp</price></item>
+            <item><name>Malachite (opaque striated light and dark green)</name><price>10 gp</price></item>
+            <item><name>Moss agate (translucent pink or yellow-white with mossy gray or green markings)</name><price>10 gp</price></item>
+            <item><name>Obsidian (opaque black)</name><price>10 gpv</price></item>
+            <item><name>Rhodochrosite (opaque light pink)</name><price>10 gp</price></item>
+            <item><name>Tiger eye (translucent brown with golden center)</name><price>10 gp</price></item>
+            <item><name>Turquoise (opaque light blue-green)</name><price>10 gp</price></item>
+        </tab>
+        <tab>
+            <item><name>Silver Ewer</name><price>25</price></item>
+            <item><name>Carved bone statuette</name><price>25</price></item>
+            <item><name>Small gold bracelet</name><price>25</price></item>
+            <item><name>Cloth-of-gold vestments</name><price>25</price></item>
+            <item><name>Black velvet mask stitched with silver thread</name><price>25</price></item>
+            <item><name>Copper chalice with silver filigree</name><price>25</price></item>
+            <item><name>Pair of engraved bone dice</name><price>25</price></item>
+            <item><name>Small mirror set in a painted wooden frame</name><price>25</price></item>
+            <item><name>Embroidered silk handkerchief</name><price>25</price></item>
+            <item><name>Gold locket with a painted portrait inside</name><price>25</price></item>
+        </tab>
+        <tab>
+            <item><name>Bloodstone (opaque dark gray with red flecks)</name><price>50 gp</price></item>
+            <item><name>Carnelian (opaque orange to red-brown)</name><price>50 gp</price></item>
+            <item><name>Chalcedony (opaque white)</name><price>50 gp</price></item>
+            <item><name>Chrysoprase (translucent green)</name><price>50 gp</price></item>
+            <item><name>Citrine (transparent pale yellow-brown)</name><price>50 gp</price></item>
+            <item><name>Jasper (opaque blue, black, or brown)</name><price>50 gp</price></item>
+            <item><name>Moonstone (translucent white with pale blue glow)</name><price>50 gp</price></item>
+            <item><name>Onyx (opaque bands of black and white, or pure black or white)</name><price>50 gp</price></item>
+            <item><name>Quartz (transparent white, smoky gray, or yellow)</name><price>50 gp</price></item>
+            <item><name>Sardonyx (opaque bands of red and white)</name><price>50 gp</price></item>
+            <item><name>Star rose quartz (translucent rosy stone with white star-shaped center)</name><price>50 gp</price></item>
+            <item><name>Zircon (transparent pale blue-green)</name><price>50 gp</price></item>
+        </tab>
+    </table>
+    <table>
+        <tab>
+            <item><name>Silver Ewer</name><price>25</price></item>
+            <item><name>Carved bone statuette</name><price>25</price></item>
+            <item><name>Small gold bracelet</name><price>25</price></item>
+            <item><name>Cloth-of-gold vestments</name><price>25</price></item>
+            <item><name>Black velvet mask stitched with silver thread</name><price>25</price></item>
+            <item><name>Copper chalice with silver filigree</name><price>25</price></item>
+            <item><name>Pair of engraved bone dice</name><price>25</price></item>
+            <item><name>Small mirror set in a painted wooden frame</name><price>25</price></item>
+            <item><name>Embroidered silk handkerchief</name><price>25</price></item>
+            <item><name>Gold locket with a painted portrait inside</name><price>25</price></item>
+        </tab>
+        <tab>
+            <item><name>Bloodstone (opaque dark gray with red flecks)</name><price>50 gp</price></item>
+            <item><name>Carnelian (opaque orange to red-brown)</name><price>50 gp</price></item>
+            <item><name>Chalcedony (opaque white)</name><price>50 gp</price></item>
+            <item><name>Chrysoprase (translucent green)</name><price>50 gp</price></item>
+            <item><name>Citrine (transparent pale yellow-brown)</name><price>50 gp</price></item>
+            <item><name>Jasper (opaque blue, black, or brown)</name><price>50 gp</price></item>
+            <item><name>Moonstone (translucent white with pale blue glow)</name><price>50 gp</price></item>
+            <item><name>Onyx (opaque bands of black and white, or pure black or white)</name><price>50 gp</price></item>
+            <item><name>Quartz (transparent white, smoky gray, or yellow)</name><price>50 gp</price></item>
+            <item><name>Sardonyx (opaque bands of red and white)</name><price>50 gp</price></item>
+            <item><name>Star rose quartz (translucent rosy stone with white star-shaped center)</name><price>50 gp</price></item>
+            <item><name>Zircon (transparent pale blue-green)</name><price>50 gp</price></item>
+        </tab>
+        <tab>
+            <item><name>Amber (transparent watery gold to rich gold)</name><price>100 gp</price></item>
+            <item><name>Amethyst (transparent deep purple)</name><price>100 gp</price></item>
+            <item><name>Chrysoberyl (transparent yellow-green to pale green)</name><price>100 gp</price></item>
+            <item><name>Coral (opaque crimson)</name><price>100 gp</price></item>
+            <item><name>Garnet (transparent red, brown-green, or violet)</name><price>100 gp</price></item>
+            <item><name>Jade (translucent light green, deep green, or white)</name><price>100 gp</price></item>
+            <item><name>Jet (opaque deep black)</name><price>100 gp</price></item>
+            <item><name>Pearl (opaque lustrous white, yellow, or pink)</name><price>100 gp</price></item>
+            <item><name>Spinel (transparent red, red-brown, or deep green)</name><price>100 gp</price></item>
+            <item><name>Tourmaline (transparent pale green, blue, brown, or red)</name><price>100 gp</price></item>
+        </tab>
+        <tab>
+            <item><name>Gold ring set with bloodstones</name><price>250</price></item>
+            <item><name>Carved ivory statuette</name><price>250</price></item>
+            <item><name>Large gold bracelet</name><price>250</price></item>
+            <item><name>Silver necklace with a gemstone pendant</name><price>250</price></item>
+            <item><name>Bronze crown</name><price>250</price></item>
+            <item><name>Silk robe with gold embroidery</name><price>250</price></item>
+            <item><name>Large well-made tapestry</name><price>250</price></item>
+            <item><name>Bra ss mug with jade inlay</name><price>250</price></item>
+            <item><name>Box of turquoise animal figurines</name><price>250</price></item>
+            <item><name>Gold bird cage with electrum filigree</name><price>250</price></item>
+        </tab>
+    </table>
+    <table>
+        <tab>
+            <item><name>Gold ring set with bloodstones</name><price>250</price></item>
+            <item><name>Carved ivory statuette</name><price>250</price></item>
+            <item><name>Large gold bracelet</name><price>250</price></item>
+            <item><name>Silver necklace with a gemstone pendant</name><price>250</price></item>
+            <item><name>Bronze crown</name><price>250</price></item>
+            <item><name>Silk robe with gold embroidery</name><price>250</price></item>
+            <item><name>Large well-made tapestry</name><price>250</price></item>
+            <item><name>Bra ss mug with jade inlay</name><price>250</price></item>
+            <item><name>Box of turquoise animal figurines</name><price>250</price></item>
+            <item><name>Gold bird cage with electrum filigree</name><price>250</price></item>
+        </tab>
+        <tab>
+            <item><name>Silver chalice set with moonstones</name><price>750</price></item>
+            <item><name>Silver-plated steel longsword with jet set in hilt</name><price>750</price></item>
+            <item><name>Carved harp of exotic wood with ivory inlay and zircon gems</name><price>750</price></item>
+            <item><name>Small gold idol</name><price>750</price></item>
+            <item><name>Gold dragon comb set with red garnets as eyes</name><price>750</price></item>
+            <item><name>Bottle stopper cork embossed with gold leaf and set with amethysts</name><price>750</price></item>
+            <item><name>Ceremonial electrum dagger with a black pearl in the pommel</name><price>750</price></item>
+            <item><name>Silver and gold brooch</name><price>750</price></item>
+            <item><name>Obsidian statuette with gold fittings and inlay</name><price>750</price></item>
+            <item><name>Painted gold war mask</name><price>750</price></item>
+        </tab>
+        <tab>
+            <item><name>Alexandrite (transparent dark green)</name><price>500 gp</price></item>
+            <item><name>Aquamarine (transparent pale blue-green)</name><price>500 gp</price></item>
+            <item><name>Black pearl (opaque pure black)</name><price>500 gp</price></item>
+            <item><name>Blue spinel (transparent deep blue)</name><price>500 gp</price></item>
+            <item><name>Peridot (transparent rich olive green)</name><price>500 gp</price></item>
+            <item><name>Topaz (transparent golden yellow)</name><price>500 gp</price></item>
+        </tab>
+        <tab>
+            <item><name>Black opal (translucent dark green with black mottling and golden flecks)</name><price>1,000 gp</price></item>
+            <item><name>Blue sapphire (transparent blue-white to medium blue)</name><price>1,000 gp</price></item>
+            <item><name>Emerald (transparent deep bright green)</name><price>1,000 gp</price></item>
+            <item><name>Fire opal (translucent fiery red)</name><price>1,000 gp</price></item>
+            <item><name>Opal (translucent pale blue with green and golden mottling)</name><price>1,000 gp</price></item>
+            <item><name>Star ruby (translucent ruby with white star-shaped center)</name><price>1,000 gp</price></item>
+            <item><name>Star sapphire (translucent blue sapphire with white star-shaped center)</name><price>1,000 gp</price></item>
+            <item><name>Yellow sapphire (transparent fiery yellow or yellow-green)</name><price>1,000 gp</price></item>
+        </tab>
+    </table>
+    <table>
+        <tab>
+            <item><name>Black opal (translucent dark green with black mottling and golden flecks)</name><price>1,000 gp</price></item>
+            <item><name>Blue sapphire (transparent blue-white to medium blue)</name><price>1,000 gp</price></item>
+            <item><name>Emerald (transparent deep bright green)</name><price>1,000 gp</price></item>
+            <item><name>Fire opal (translucent fiery red)</name><price>1,000 gp</price></item>
+            <item><name>Opal (translucent pale blue with green and golden mottling)</name><price>1,000 gp</price></item>
+            <item><name>Star ruby (translucent ruby with white star-shaped center)</name><price>1,000 gp</price></item>
+            <item><name>Star sapphire (translucent blue sapphire with white star-shaped center)</name><price>1,000 gp</price></item>
+            <item><name>Yellow sapphire (transparent fiery yellow or yellow-green)</name><price>1,000 gp</price></item>
+        </tab>
+        <tab>
+            <item><name>Fine gold chain set with a fire opal</name><price>2500</price></item>
+            <item><name>Old masterpiece painting</name><price>2500</price></item>
+            <item><name>Embroidered silk and velvet mantle set with numerous moonstones</name><price>2500</price></item>
+            <item><name>Platinum bracelet set with a sapphire</name><price>2500</price></item>
+            <item><name>Embroidered glove set with jewel chips</name><price>2500</price></item>
+            <item><name>Jeweled anklet</name><price>2500</price></item>
+            <item><name>Gold music box</name><price>2500</price></item>
+            <item><name>Gold circlet set with four aquamarines</name><price>2500</price></item>
+            <item><name>Eye patch with a mock eye set in blue sapphire and moonstone</name><price>2500</price></item>
+            <item><name>A necklace string of small pink pearls</name><price>2500</price></item>
+        </tab>
+        <tab>
+            <item><name>Jeweled gold crown</name><price>7500</price></item>
+            <item><name>Jeweled platinum ring</name><price>7500</price></item>
+            <item><name>Small gold statuette set with rubies</name><price>7500</price></item>
+            <item><name>Gold cup set with emeralds</name><price>7500</price></item>
+            <item><name>Gold jewelry box with platinum filigree</name><price>7500</price></item>
+            <item><name>Painted gold child's sarcophagus</name><price>7500</price></item>
+            <item><name>Jade game board with solid gold playing pieces</name><price>7500</price></item>
+            <item><name>Bejeweled ivory drinking horn with gold filigree</name><price>7500</price></item>
+        </tab>
+        <tab>
+            <item><name>Black sapphire (translucent lustrous black with glowing highlights)</name><price>5,000 gp</price></item>
+            <item><name>Diamond (transparent blue-white, canary, pink, brown, or blue)</name><price>5,000 gp</price></item>
+            <item><name>Jacinth (transparent fiery orange)</name><price>5,000 gp</price></item>
+            <item><name>Ruby (transparent clear red to deep crimson)</name><price>5,000 gp</price></item>
+        </tab>
+    </table>
+</tables>

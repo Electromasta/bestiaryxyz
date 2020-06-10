@@ -1,0 +1,33 @@
+<div fxFlex="15%" fxFlex.md="5%" fxFlex.sm="2%" fxFlex.xs="2%"></div><div fxFlex fxLayout="column" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="space-evenly center" fxLayoutGap="15px" class="main">
+    <div fxFlex="100">
+        <mat-form-field *ngIf="biomes">
+            <mat-label>Biome</mat-label>
+            <mat-select (selectionChange)="biomeChanged($event)">
+                <mat-option *ngFor="let biome of biomes" [value]="biome?.order">
+                    {{biome?.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field *ngIf="bookmark">
+            <mat-label>Tier</mat-label>
+            <mat-select (selectionChange)="tierChanged($event)" [(ngModel)]="tierSelect">
+                <mat-option *ngFor="let levelrange of bookmark.levelranges" [value]="levelrange.name">
+                    {{levelrange.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <button (click)="rollEncounter()" style="margin-left: 20px;" mat-raised-button>Encounter!</button>
+    </div>
+
+    <div fxFlex="100">
+        <mat-card class="card" *ngIf="encounter">
+            <mat-card-title>Encountered This:</mat-card-title>
+            <mat-card-subtitle>Rolled {{rolled}} in range: [{{encounter.start}}-{{encounter.end}}]</mat-card-subtitle>
+            <mat-card-content class="cardtext">
+                {{encounter.desc}}
+            </mat-card-content>
+        </mat-card>
+    </div>
+
+</div><div fxFlex="15%" fxFlex.md="5%" fxFlex.sm="2%" fxFlex.xs="2%"></div>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tables>
+    <table>
+        <desc>A</desc>
+        <list>
+            <item><weight>50</weight><text>Potion of Healing</text></item>
+            <item><weight>10</weight><text>Spell Scroll (Cantrip)</text></item>
+            <item><weight>10</weight><text>Potion of Climbing</text></item>
+            <item><weight>20</weight><text>Spell Scroll (1st Level)</text></item>
+            <item><weight>5</weight><text>Spell Scroll (2nd Level)</text></item>
+            <item><weight>5</weight><text>Potion of Greater Healing</text></item>
+            <item><weight>2</weight><text>Bag of Holding</text></item>
+            <item><weight>2</weight><text>Driftglobe</text></item>
+        </list>
+    </table>
+    <table>
+        <desc>B</desc>
+        <list>
+            <item><weight>15</weight><text>Potion of Greater Healing</text></item>
+            <item><weight>10</weight><text>Potion of Fire Breath</text></item>
+            <item><weight>10</weight><text>Potion of Resistance</text></item>
+            <item><weight>5</weight><text>Ammunition +1</text></item>
+            <item><weight>5</weight><text>Potion of Animal Friendship</text></item>
+            <item><weight>5</weight><text>Potion of Hill Giant Strength</text></item>
+            <item><weight>5</weight><text>Potion of Growth</text></item>
+            <item><weight>5</weight><text>Potion of Water Breathing</text></item>
+            <item><weight>5</weight><text>Spell Scroll (2nd Level)</text></item>
+            <item><weight>5</weight><text>Spell Scroll (3rd Level)</text></item>
+            <item><weight>5</weight><text>Bag of Holding</text></item>
+            <item><weight>2</weight><text>Keoghtom's Ointment</text></item>
+            <item><weight>2</weight><text>Oil of Slipperiness</text></item>
+            <item><weight>2</weight><text>Dust of Disappearance</text></item>
+            <item><weight>2</weight><text>Dust of Dryness</text></item>
+            <item><weight>2</weight><text>Dust of Sneezing and Choking</text></item>
+            <item><weight>2</weight><text>Elemental Gem</text></item>
+            <item><weight>2</weight><text>Philter of Love</text></item>
+            <item><weight>1</weight><text>Alchemy Jug</text></item>
+            <item><weight>1</weight><text>Cap of Water Breathing</text></item>
+            <item><weight>1</weight><text>Cloak of the Manta Ray</text></item>
+            <item><weight>1</weight><text>Driftglobe</text></item>
+            <item><weight>1</weight><text>Goggles of Night</text></item>
+            <item><weight>1</weight><text>Helm of Comprehending Languages</text></item>
+            <item><weight>1</weight><text>Immovable Rod</text></item>
+            <item><weight>1</weight><text>Lantern of Revealing</text></item>
+            <item><weight>1</weight><text>Mariner's Armor</text></item>
+            <item><weight>1</weight><text>Mithral Armor</text></item>
+            <item><weight>1</weight><text>Potion of Poison</text></item>
+            <item><weight>1</weight><text>Ring of Swimming</text></item>
+            <item><weight>1</weight><text>Robe of Useful Items</text></item>
+            <item><weight>1</weight><text>Rope of Climbing</text></item>
+            <item><weight>1</weight><text>Saddle of the Cavalier</text></item>
+            <item><weight>1</weight><text>Wand of Magic Detection</text></item>
+            <item><weight>1</weight><text>Wand of Secrets</text></item>
+        </list>
+    </table>
+    <table>
+        <desc>C</desc>
+        <list>
+            <item><weight>15</weight><text>Potion of Superior Healing</text></item>
+            <item><weight>5</weight><text>Spell Scroll (4th Level)</text></item>
+            <item><weight>5</weight><text>Ammunition +2</text></item>
+            <item><weight>5</weight><text>Potion of Clairvoyance</text></item>
+            <item><weight>5</weight><text>Potion of Diminution</text></item>
+            <item><weight>5</weight><text>Potion of Gaseous Form</text></item>
+            <item><weight>5</weight><text>Potion of Frost Giant Strength</text></item>
+            <item><weight>5</weight><text>Potion of Stone Giant Strength</text></item>
+            <item><weight>5</weight><text>Potion of Heroism</text></item>
+            <item><weight>5</weight><text>Potion of Invulnerability</text></item>
+            <item><weight>5</weight><text>Potion of Mind Reading</text></item>
+            <item><weight>5</weight><text>Spell Scroll (5th Level)</text></item>
+            <item><weight>2</weight><text>Elixir of Health</text></item>
+            <item><weight>2</weight><text>Oil of Etherealness</text></item>
+            <item><weight>2</weight><text>Potion of Fire Giant Strength</text></item>
+            <item><weight>2</weight><text>Quaal's Feather Token</text></item>
+            <item><weight>2</weight><text>Scroll of Protection</text></item>
+            <item><weight>2</weight><text>Bag of Beans</text></item>
+            <item><weight>2</weight><text>Bead of Force</text></item>
+            <item><weight>1</weight><text>Chime of Opening</text></item>
+            <item><weight>1</weight><text>Decanter of Endless Water</text></item>
+            <item><weight>1</weight><text>Eyes of Minute Seeing</text></item>
+            <item><weight>1</weight><text>Folding Boat</text></item>
+            <item><weight>1</weight><text>Heward's Handy Haversack</text></item>
+            <item><weight>1</weight><text>Horseshoes of Speed</text></item>
+            <item><weight>1</weight><text>Necklace of Fireballs</text></item>
+            <item><weight>1</weight><text>Periapt of Health</text></item>
+            <item><weight>1</weight><text>Sending Stones</text></item>
+        </list>
+    </table>
+    <table>
+        <desc>D</desc>
+        <list>
+            <item><weight>20</weight><text>Potion of Supreme Healing</text></item>
+            <item><weight>10</weight><text>Potion of Invisibility</text></item>
+            <item><weight>10</weight><text>Potion of Speed</text></item>
+            <item><weight>10</weight><text>Spell Scroll (6th level)</text></item>
+            <item><weight>5</weight><text>Spell Scroll (7th level)</text></item>
+            <item><weight>5</weight><text>Ammunition +3</text></item>
+            <item><weight>5</weight><text>Oil of Sharpness</text></item>
+            <item><weight>5</weight><text>Potion of Flying</text></item>
+            <item><weight>5</weight><text>Potion of Cloud Giant Strength</text></item>
+            <item><weight>5</weight><text>Potion of Longevity</text></item>
+            <item><weight>5</weight><text>Potion of Vitality</text></item>
+            <item><weight>5</weight><text>Spell Scroll (8th level)</text></item>
+            <item><weight>2</weight><text>Horseshoes of a Zephyr</text></item>
+            <item><weight>2</weight><text>Nolzur's Marvelous Pigments</text></item>
+            <item><weight>1</weight><text>Bag of Devouring</text></item>
+            <item><weight>1</weight><text>Portable Hole</text></item>
+        </list>
+    </table>
+    <table>
+        <desc>E</desc>
+        <list>
+            <item><weight>30</weight><text>Spell Scroll (8th level)</text></item>
+            <item><weight>15</weight><text>Potion of Storm Giant Strength</text></item>
+            <item><weight>15</weight><text>Potion of Supreme Healing</text></item>
+            <item><weight>15</weight><text>Spell Scroll (9th level)</text></item>
+            <item><weight>10</weight><text>Universal Solvent</text></item>
+            <item><weight>5</weight><text>Arrow of Slaying</text></item>
+            <item><weight>2</weight><text>Sovereign Glue</text></item>
+        </list>
+    </table>
+</tables>

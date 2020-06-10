@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<biome>
+    <order>3</order>
+    <title>Forest</title>
+    <levelrange>
+        <header>Level Range 1-4</header>
+        <encounter><low>1</low><high>2</high><text>1 giant owl </text></encounter>
+        <encounter><low>2</low><high>3</high><text>ld4 cats</text></encounter>
+        <encounter><low>3</low><high>4</high><text>2d4 woodcutters (commoners) </text></encounter>
+        <encounter><low>4</low><high>5</high><text>1 badger or ld4 poisonous snakes</text></encounter>
+        <encounter><low>5</low><high>6</high><text>2d8 baboons </text></encounter>
+        <encounter><low>6</low><high>7</high><text>ld6 + 3 hyenas</text></encounter>
+        <encounter><low>7</low><high>8</high><text>1 owl </text></encounter>
+        <encounter><low>8</low><high>9</high><text>1 pseudodragon </text></encounter>
+        <encounter><low>9</low><high>10</high><text>1 panther </text></encounter>
+        <encounter><low>10</low><high>11</high><text>1 giant poisonous snake </text></encounter>
+        <encounter><low>11</low><high>12</high><text>ld6 + 2 boars </text></encounter>
+        <encounter><low>12</low><high>13</high><text>l d4 + 1 giant lizards </text></encounter>
+        <encounter><low>13</low><high>14</high><text>l ape or l tiger </text></encounter>
+        <encounter><low>14</low><high>15</high><text>2d6 tribal warriors with ld6 mastiffs </text></encounter>
+        <encounter><low>15</low><high>16</high><text>ld6 + 2 giant bats or 3d6 flying snakes </text></encounter>
+        <encounter><low>16</low><high>17</high><text>l scout or 2d4 guards with ld8 mastiffs </text></encounter>
+        <encounter><low>17</low><high>18</high><text>ld8 + l winged kobolds </text></encounter>
+        <encounter><low>18</low><high>19</high><text>ld3 constrictor snakes </text></encounter>
+        <encounter><low>19</low><high>20</high><text>ldlO + 5 giant rats or 2d6 + 3 giant weasels </text></encounter>
+        <encounter><low>20</low><high>21</high><text>ld4 + 1 needle blights with ld6 + 3 twig blights </text></encounter>
+        <encounter><low>21</low><high>26</high><text>A lost, weeping child. If the characters take the child home, the parents reward them with ld3 potions of healing. </text></encounter>
+        <encounter><low>26</low><high>27</high><text>1d8 + 1 giant frogs </text></encounter>
+        <encounter><low>27</low><high>28</high><text>4d4 kobolds </text></encounter>
+        <encounter><low>28</low><high>29</high><text>ld3 black bears </text></encounter>
+        <encounter><low>29</low><high>30</high><text>3d6 stirges</text></encounter>
+        <encounter><low>30</low><high>31</high><text>1 satyr </text></encounter>
+        <encounter><low>31</low><high>32</high><text>2d4 kenku </text></encounter>
+        <encounter><low>32</low><high>33</high><text>ld3 vine blights with ld12 awakened shrubs </text></encounter>
+        <encounter><low>33</low><high>34</high><text>ld4 swarms of ravens</text></encounter>
+        <encounter><low>34</low><high>35</high><text>l faerie dragon </text></encounter>
+        <encounter><low>35</low><high>36</high><text>ld4 + 2 giant badgers </text></encounter>
+        <encounter><low>36</low><high>41</high><text>A young woodcutter (scout) racing through the forest to rescue a lost friend</text></encounter>
+        <encounter><low>41</low><high>42</high><text>2d4 blink dogs </text></encounter>
+        <encounter><low>42</low><high>43</high><text>1d8 + 1 sprites </text></encounter>
+        <encounter><low>43</low><high>44</high><text>ld6 +2 elk</text></encounter>
+        <encounter><low>44</low><high>45</high><text>ld4 lizardfolk or 3d6 bandits </text></encounter>
+        <encounter><low>45</low><high>46</high><text>1 d4 + 4 wolves </text></encounter>
+        <encounter><low>46</low><high>47</high><text>2d4 giant wolf spiders </text></encounter>
+        <encounter><low>47</low><high>48</high><text>1 swarm of insects or 2d8 blood hawks </text></encounter>
+        <encounter><low>48</low><high>49</high><text>ld6 + 2 pixies </text></encounter>
+        <encounter><low>49</low><high>50</high><text>l brown bear </text></encounter>
+        <encounter><low>50</low><high>51</high><text>1d4 + 3 goblins </text></encounter>
+        <encounter><low>51</low><high>52</high><text>ld3 dryads </text></encounter>
+        <encounter><low>52</low><high>2</high><text>wakened tree </text></encounter>
+        <encounter><low>53</low><high>54</high><text>1 phase spider </text></encounter>
+        <encounter><low>54</low><high>55</high><text>ld6 harpies </text></encounter>
+        <encounter><low>55</low><high>56</high><text>l ettercap or ld8 + l orcs </text></encounter>
+        <encounter><low>56</low><high>57</high><text>l goblin boss with 2d6 + l goblins </text></encounter>
+        <encounter><low>57</low><high>58</high><text>l ankheg </text></encounter>
+        <encounter><low>58</low><high>59</high><text>l giant constrictor snake </text></encounter>
+        <encounter><low>59</low><high>60</high><text>ld4 bugbears or 2d4 hobgoblins </text></encounter>
+        <encounter><low>60</low><high>61</high><text>l pegasus </text></encounter>
+        <encounter><low>61</low><high>66</high><text>A stream of cool, clean water flowing between the trees </text></encounter>
+        <encounter><low>66</low><high>67</high><text>l d4 half-ogres or l ogre </text></encounter>
+        <encounter><low>67</low><high>68</high><text>l faerie dragon (green or older) </text></encounter>
+        <encounter><low>68</low><high>69</high><text>l werewolf or ld8 + l worgs </text></encounter>
+        <encounter><low>69</low><high>70</high><text>l druid harvesting mistletoe </text></encounter>
+        <encounter><low>70</low><high>71</high><text>l will-o'-wisp </text></encounter>
+        <encounter><low>71</low><high>72</high><text>ld4 dire wolves or l giant boar </text></encounter>
+        <encounter><low>72</low><high>72</high><text>ldlO giant wasps </text></encounter>
+        <encounter><low>73</low><high>74</high><text>l owlbear or l giant elk </text></encounter>
+        <encounter><low>74</low><high>75</high><text>2d6 gnolls </text></encounter>
+        <encounter><low>75</low><high>76</high><text>ld6 giant toads </text></encounter>
+        <encounter><low>76</low><high>81</high><text>ld6 web cocoons hanging from the branches, hold­ing withered carcasses </text></encounter>
+        <encounter><low>81</low><high>82</high><text>l wereboar or ld4 giant boars </text></encounter>
+        <encounter><low>82</low><high>83</high><text>ld6 + 2 giant spiders </text></encounter>
+        <encounter><low>83</low><high>84</high><text>ld4 centaurs or ld4 giant elk </text></encounter>
+        <encounter><low>84</low><high>85</high><text>l ore Eye ofGruumsh with 2d4 + 2 ores</text></encounter>
+        <encounter><low>85</low><high>86</high><text>l gnoll fang ofYeenoghu </text></encounter>
+        <encounter><low>86</low><high>87</high><text>ld4 gricks </text></encounter>
+        <encounter><low>87</low><high>88</high><text>l bandit captain with 2d6 + 3 bandits </text></encounter>
+        <encounter><low>88</low><high>89</high><text>l d4 wererats </text></encounter>
+        <encounter><low>89</low><high>90</high><text>l couatl (day) or l banshee (night) </text></encounter>
+        <encounter><low>90</low><high>91</high><text>l gnoll pack lord with ld4 giant hyenas </text></encounter>
+        <encounter><low>91</low><high>92</high><text>2d4 berserkers or ld4 veterans </text></encounter>
+        <encounter><low>92</low><high>93</high><text>l lizardfofk shaman with ld3 swarms of poisonous snakes and ldlO + 2 lizardfolk </text></encounter>
+        <encounter><low>93</low><high>94</high><text>ld4 displacer beasts </text></encounter>
+        <encounter><low>94</low><high>95</high><text>ld3 green hags</text></encounter>
+        <encounter><low>95</low><high>96</high><text>l hobgoblin captain with 2d6 hobgoblins and ld4 giant boars </text></encounter>
+        <encounter><low>96</low><high>97</high><text>l yuan-ti malison with ld6 + l yuan-ti purebloods </text></encounter>
+        <encounter><low>97</low><high>98</high><text>l d3 weretigers </text></encounter>
+        <encounter><low>98</low><high>99</high><text>l gorgon or l unicorn </text></encounter>
+        <encounter><low>99</low><high>100</high><text>l shambling mound </text></encounter>
+        <encounter><low>100</low><high>101</high><text>l yuan-ti abomination </text></encounter>
+    </levelrange>
+    <levelrange>
+        <header>Level Range 5-10</header>
+        <encounter><low>1</low><high>2</high><text>2d4 vine blights </text></encounter>
+        <encounter><low>2</low><high>3</high><text>2d6 hobgoblins or 2d6 orcs </text></encounter>
+        <encounter><low>3</low><high>4</high><text>2d4 apes or 2d4 satyrs</text></encounter>
+        <encounter><low>4</low><high>5</high><text>ld3 will-o'-wisps </text></encounter>
+        <encounter><low>5</low><high>6</high><text>ld4 swarms of poisonous snakes</text></encounter>
+        <encounter><low>6</low><high>7</high><text>l orc Eye of Gruumsh with ld3 orcs and ld8 + 2 orcs</text></encounter>
+        <encounter><low>7</low><high>8</high><text>ld3 constrictor snakes or l d4 tigers</text></encounter>
+        <encounter><low>8</low><high>9</high><text>l goblin boss with 3d6 goblins </text></encounter>
+        <encounter><low>9</low><high>10</high><text>l faerie dragon (any age)</text></encounter>
+        <encounter><low>10</low><high>11</high><text>l brown bear or ld6 + 2 black bears</text></encounter>
+        <encounter><low>11</low><high>14</high><text>ld4 giant boars</text></encounter>
+        <encounter><low>14</low><high>16</high><text>ld8 + l giant spiders</text></encounter>
+        <encounter><low>16</low><high>18</high><text>l lizardfolk shaman with 2d4 lizardfolk</text></encounter>
+        <encounter><low>18</low><high>19</high><text>ldlO giant toads</text></encounter>
+        <encounter><low>19</low><high>20</high><text>ld4 ankhegs</text></encounter>
+        <encounter><low>20</low><high>21</high><text>ld3 awakened trees(day) or l banshee (night)</text></encounter>
+        <encounter><low>21</low><high>26</high><text>A small shack almost hidden by the deep forest. The interior is empty aside from a large cast-iron oven.</text></encounter>
+        <encounter><low>26</low><high>27</high><text>l couatl</text></encounter>
+        <encounter><low>27</low><high>29</high><text>ld4 ogres or ld6 + 2 half.ogres</text></encounter>
+        <encounter><low>29</low><high>31</high><text>l gnoll pack lord with ld4 + l giant hyenas</text></encounter>
+        <encounter><low>31</low><high>33</high><text>ld6 wererats </text></encounter>
+        <encounter><low>33</low><high>34</high><text>ld4 gricks </text></encounter>
+        <encounter><low>34</low><high>35</high><text>ld8 + l yuan-ti purebloods </text></encounter>
+        <encounter><low>35</low><high>36</high><text>ld6 pegasi</text></encounter>
+        <encounter><low>36</low><high>41</high><text>An old stone archway of obvious elven design. Any character who passes under it makes Wisdom (Perception) checks with advantage for l hour. </text></encounter>
+        <encounter><low>41</low><high>43</high><text>ld6 + 2 dryads</text></encounter>
+        <encounter><low>43</low><high>44</high><text>ld4 giant elk </text></encounter>
+        <encounter><low>44</low><high>45</high><text>ld8 + l harpies</text></encounter>
+        <encounter><low>45</low><high>47</high><text>l bandit captain with l druid and ld6 + 5 bandits </text></encounter>
+        <encounter><low>47</low><high>49</high><text>2d4 dire wolves</text></encounter>
+        <encounter><low>49</low><high>51</high><text>2d4 bugbears </text></encounter>
+        <encounter><low>51</low><high>53</high><text>2d4 centaurs </text></encounter>
+        <encounter><low>53</low><high>55</high><text>3dl0 blink dogs </text></encounter>
+        <encounter><low>55</low><high>57</high><text>ld4 owl bears </text></encounter>
+        <encounter><low>57</low><high>59</high><text>ld8 + l berserkers </text></encounter>
+        <encounter><low>59</low><high>61</high><text>ld3 green hags </text></encounter>
+        <encounter><low>61</low><high>66</high><text>A clear pool of water with ld6 sleeping animals lying around its edge </text></encounter>
+        <encounter><low>66</low><high>68</high><text>1d4 werewolves</text></encounter>
+        <encounter><low>68</low><high>70</high><text>l werebear</text></encounter>
+        <encounter><low>70</low><high>72</high><text>ld8 + l ettercaps</text></encounter>
+        <encounter><low>72</low><high>74</high><text>2dl0 elk </text></encounter>
+        <encounter><low>74</low><high>76</high><text>ld4 veterans</text></encounter>
+        <encounter><low>76</low><high>81</high><text>An old tree with a wizened face carved into the trunk</text></encounter>
+        <encounter><low>81</low><high>82</high><text>ld4 wereboars </text></encounter>
+        <encounter><low>82</low><high>83</high><text>2d4 displacer beasts</text></encounter>
+        <encounter><low>83</low><high>84</high><text>ld4 shambling mounds </text></encounter>
+        <encounter><low>84</low><high>85</high><text>l hobgoblin captain with 3dl0 hobgoblins and 4dl2 goblins</text></encounter>
+        <encounter><low>85</low><high>86</high><text>l yuan-ti abomination</text></encounter>
+        <encounter><low>86</low><high>87</high><text>ld8 + l phase spiders</text></encounter>
+        <encounter><low>87</low><high>88</high><text>ld4 trolls</text></encounter>
+        <encounter><low>88</low><high>89</high><text>2d4 yuan-ti malisons</text></encounter>
+        <encounter><low>89</low><high>90</high><text>l oni</text></encounter>
+        <encounter><low>90</low><high>91</high><text>ld4 unicorns</text></encounter>
+        <encounter><low>91</low><high>92</high><text>ld6 + 2 weretigers</text></encounter>
+        <encounter><low>92</low><high>93</high><text>l young green dragon</text></encounter>
+        <encounter><low>93</low><high>94</high><text>ld4 gorgons</text></encounter>
+        <encounter><low>94</low><high>95</high><text>ld6 + 2 gnoll fangs of Yeenoghu </text></encounter>
+        <encounter><low>95</low><high>96</high><text>l treant </text></encounter>
+        <encounter><low>96</low><high>97</high><text>ld4 revenants</text></encounter>
+        <encounter><low>97</low><high>98</high><text>l grick alpha with ld6 + l gricks </text></encounter>
+        <encounter><low>98</low><high>99</high><text>ld4 giant apes</text></encounter>
+        <encounter><low>99</low><high>100</high><text>l guardian naga</text></encounter>
+        <encounter><low>100</low><high>101</high><text>l adult gold dragon </text></encounter>
+    </levelrange>
+    <levelrange>
+        <header>Level Range 11-16</header>
+        <encounter><low>1</low><high>4</high><text>l werebear </text></encounter>
+        <encounter><low>4</low><high>6</high><text>ld4 druids performing a ritual for the dead (day only) or ld4 banshees (night only) </text></encounter>
+        <encounter><low>6</low><high>8</high><text>ld3 couatls</text></encounter>
+        <encounter><low>8</low><high>11</high><text>ld3 gnoll fangs of Yeenoghu with 2d6 + 3 gnolls </text></encounter>
+        <encounter><low>11</low><high>16</high><text>2d4 displacer beasts </text></encounter>
+        <encounter><low>16</low><high>21</high><text>ld6 + 2 veterans </text></encounter>
+        <encounter><low>21</low><high>26</high><text>A pool of clear, still water. Gold coins litter the bottom, but they disappear if removed from the pool.</text></encounter>
+        <encounter><low>26</low><high>31</high><text>ld4 + l green hags with ld3 owlbears </text></encounter>
+        <encounter><low>31</low><high>36</high><text>ld6 + 2 werewolves</text></encounter>
+        <encounter><low>36</low><high>41</high><text>A small woodland shrine dedicated to a mysterious cult named the Siswa </text></encounter>
+        <encounter><low>41</low><high>46</high><text>ld6 + 2 phase spiders</text></encounter>
+        <encounter><low>46</low><high>51</high><text>2d4 yuan-ti malisons</text></encounter>
+        <encounter><low>51</low><high>53</high><text>ld3 werebears</text></encounter>
+        <encounter><low>53</low><high>55</high><text>ld4 revenants</text></encounter>
+        <encounter><low>55</low><high>57</high><text>l young green dragon </text></encounter>
+        <encounter><low>57</low><high>59</high><text>1d4 trolls </text></encounter>
+        <encounter><low>59</low><high>61</high><text>ld6 + 2 wereboars</text></encounter>
+        <encounter><low>61</low><high>66</high><text>A group of seven people (commoners) wearing animal masks and ambling through the woods </text></encounter>
+        <encounter><low>66</low><high>68</high><text>ld4 gorgons </text></encounter>
+        <encounter><low>68</low><high>70</high><text>ld3 shambling mounds </text></encounter>
+        <encounter><low>70</low><high>72</high><text>l treant </text></encounter>
+        <encounter><low>72</low><high>74</high><text>ld4 unicorns</text></encounter>
+        <encounter><low>74</low><high>76</high><text>ld6 + 2 weretigers</text></encounter>
+        <encounter><low>76</low><high>81</high><text>Peals of silvery laughter that echo from a distance </text></encounter>
+        <encounter><low>81</low><high>83</high><text>l guardian naga</text></encounter>
+        <encounter><low>83</low><high>85</high><text>l young gold dragon </text></encounter>
+        <encounter><low>85</low><high>87</high><text>1 grick alpha with 2d4 gricks </text></encounter>
+        <encounter><low>87</low><high>89</high><text>ld3 yuan-ti abominations </text></encounter>
+        <encounter><low>89</low><high>91</high><text>l adult green dragon </text></encounter>
+        <encounter><low>91</low><high>94</high><text>ld8 + l giant apes </text></encounter>
+        <encounter><low>94</low><high>97</high><text>2d4 oni </text></encounter>
+        <encounter><low>97</low><high>100</high><text>ld3 treants </text></encounter>
+        <encounter><low>100</low><high>101</high><text>l ancient green dragon </text></encounter>
+    </levelrange>
+    <levelrange>
+        <header>Level Range 17-20</header>
+        <encounter><low>1</low><high>6</high><text>l young green dragon </text></encounter>
+        <encounter><low>6</low><high>11</high><text>l treant </text></encounter>
+        <encounter><low>11</low><high>14</high><text>l guardian naga </text></encounter>
+        <encounter><low>14</low><high>17</high><text>l dl0 revenants </text></encounter>
+        <encounter><low>17</low><high>20</high><text>ld8 + l unicorns </text></encounter>
+        <encounter><low>20</low><high>23</high><text>ld3 grick alphas </text></encounter>
+        <encounter><low>23</low><high>26</high><text>For a few hundred feet, wherever the characters step, Flowers bloom and emit soft light. </text></encounter>
+        <encounter><low>26</low><high>29</high><text>l young gold dragon </text></encounter>
+        <encounter><low>29</low><high>32</high><text>ld6 + 2 shambling mounds </text></encounter>
+        <encounter><low>32</low><high>35</high><text>2d4 werebears</text></encounter>
+        <encounter><low>35</low><high>38</high><text>ld4 oni </text></encounter>
+        <encounter><low>38</low><high>41</high><text>4d6 + 10 elves living in a small community in the treetops </text></encounter>
+        <encounter><low>41</low><high>44</high><text>ld6 + 2 gorgons </text></encounter>
+        <encounter><low>44</low><high>47</high><text>2d4 trolls </text></encounter>
+        <encounter><low>47</low><high>50</high><text>ld4 giant apes </text></encounter>
+        <encounter><low>50</low><high>53</high><text>ld3 yuan-ti abominations </text></encounter>
+        <encounter><low>53</low><high>63</high><text>ld3 young green dragons </text></encounter>
+        <encounter><low>63</low><high>66</high><text>A 5O-foot-tall stone statue of an elf warrior with hand raised, palm out, as if to forbid travelers from coming this way 66-7S ld4 treants </text></encounter>
+        <encounter><low>76</low><high>81</high><text>A cairn set atop a low hill </text></encounter>
+        <encounter><low>81</low><high>91</high><text>l adult gold dragon </text></encounter>
+        <encounter><low>91</low><high>97</high><text>l ancient green dragon </text></encounter>
+        <encounter><low>97</low><high>100</high><text>2d4 + l treants </text></encounter>
+        <encounter><low>100</low><high>101</high><text>l ancient gold dragon</text></encounter>
+    </levelrange>
+</biome>

@@ -1,47 +1,6 @@
-<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-sm-3 col-md-1 mr-0" href="#">Bestiary.xyz</a>
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-        <a class="nav-link" style="color:lightgray;" href="#">{{viewName}}</a>
-    </li>
-    </ul>
-</nav>
+<mat-toolbar color="primary">
+  <span fxFlex fxFlexOffset="15%" fxFlexOffset.md="5%" fxFlexOffset.sm="2%" fxFlexOffset.xs="2%" routerLink="/"><div class="home">Bestiary.xyz</div></span>
+  <div fxFlex="80%" fxFlex.md="80%" fxFlex.sm="85%" fxFlex.xs="85%"></div>
+</mat-toolbar>
 
-<div class="container-fluid">
-  <div class="row">
-    <nav class="col-md-1 d-none d-md-block bg-light sidebar">
-      <div class="sidebar-sticky">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a routerLink="/dmg" routerLinkActive="active" class="nav-link" href="#">
-              <i class="fas fa-dragon"></i>
-              DMG
-            </a>
-          </li>
-          <li class="nav-item">
-            <a routerLink="/xgte" routerLinkActive="active" class class="nav-link" href="#">
-              <i class="fas fa-eye"></i>
-              XGTE
-            </a>
-          </li>
-          <li class="nav-item">
-            <a routerLink="/tiyl" routerLinkActive="active" class class="nav-link" href="#">
-              <i class="fas fa-book-reader"></i>
-              TIYL
-            </a>
-          </li>
-          <li class="nav-item">
-            <a routerLink="/console" routerLinkActive="active" class class="nav-link" href="#">
-              <i class="fas fa-terminal"></i>
-              Custom
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <main role="main" class="col-md-11 ml-sm-auto col-lg-11 px-4">
-      <router-outlet (activate)="changeOfRoutes()"></router-outlet>
-    </main>
-  </div>
-</div>
+<router-outlet (activate)="changeOfRoutes()"></router-outlet>

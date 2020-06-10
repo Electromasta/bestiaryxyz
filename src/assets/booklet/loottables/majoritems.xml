@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tables>
+    <table>
+        <desc>F</desc>
+        <list>
+            <item><weight>25</weight><text>Weapon, +1</text></item>
+
+            <item><weight>15</weight><text>Tool/Kit, +1</text></item>
+
+            <item><weight>10</weight><text>Wand of the War Mage, +1</text></item>
+            <item><weight>5</weight><text>Pearl of Power</text></item>
+
+            <item><weight>5</weight><text>Instrument, +1</text></item>
+            <item><weight>5</weight><text>Mariner’s Armor</text></item>
+            <item><weight>5</weight><text>Boots of Striding and Springing</text></item>
+            <item><weight>5</weight><text>Boots of the Winterlands</text></item>
+            <item><weight>5</weight><text>Gloves of Swimming and Climbing</text></item>
+            <item><weight>5</weight><text>Gloves of Thievery</text></item>
+            <item><weight>5</weight><text>Rope of Climbing</text></item>
+            <item><weight>5</weight><text>Wand of Magic Missiles</text></item>
+            <item><weight>5</weight><text>Wind Fan</text></item>
+        </list>
+    </table>
+    <table>
+        <desc>G</desc>
+        <list>
+            <item><weight>15</weight><text>Weapon, +2</text></item>
+            <item><weight>5</weight><text>Giant Slayer</text></item>
+            <item><weight>5</weight><text>Lightning Spike Weapon, +1</text></item>
+            <item><weight>5</weight><text>Flame Tongue Weapon, +1</text></item>
+            <item><weight>5</weight><text>Freezing Brand Weapon, +1</text></item>
+            <item><weight>5</weight><text>Culling Weapon, +1</text></item>
+            <item><weight>5</weight><text>Tacticians Weapon, +1</text></item>
+            <item><weight>5</weight><text>Cloaked Weapon, +1</text></item>
+
+            <item><weight>20</weight><text>Armor, Shield, +1</text></item>
+            <item><weight>5</weight><text>Ratform Armor</text></item>
+            <item><weight>10</weight><text>Armor/Shield of [Damage Type] Resistance</text></item>
+            <item><weight>5</weight><text>Bracers of Defense</text></item>
+
+            <item><weight>20</weight><text>Tool/Kit, +2</text></item>
+            <item><weight>15</weight><text>Quarterstaff of Ancients, +1</text></item>
+            <item><weight>20</weight><text>Wand of the War Mage, +2</text></item>
+            <item><weight>5</weight><text>Instrument, +2</text></item>
+
+            <item><weight>10</weight><text>Ring of [Damage Type] Resistance</text></item>
+            <item><weight>5</weight><text>Ring of Free Action</text></item>
+            <item><weight>5</weight><text>Ring of Feather Falling</text></item>
+            <item><weight>5</weight><text>Ring of Evasion</text></item>
+            <item><weight>5</weight><text>Broom of Flying</text></item>
+        </list>
+    </table>
+    <table>
+        <desc>H</desc>
+        <list>
+            <item><weight>15</weight><text>Weapon, +3</text></item>
+            <item><weight>5</weight><text>Giant Slayer +2</text></item>
+            <item><weight>5</weight><text>Lightning Spike Weapon, +2</text></item>
+            <item><weight>5</weight><text>Flame Tongue Weapon, +2</text></item>
+            <item><weight>5</weight><text>Freezing Brand Weapon, +2</text></item>
+            <item><weight>5</weight><text>Culling Weapon, +2</text></item>
+            <item><weight>5</weight><text>Tacticians Weapon, +2</text></item>
+            <item><weight>5</weight><text>Cloaked Weapon, +2</text></item>
+
+            <item><weight>20</weight><text>Armor, Shield, +2</text></item>
+            <item><weight>10</weight><text>Armor/Shield of [Damage Type] Resistance +1</text></item>
+
+            <item><weight>20</weight><text>Tool/Kit, +3</text></item>
+            <item><weight>15</weight><text>Quarterstaff of Ancients, +2</text></item>
+            <item><weight>20</weight><text>Wand of the War Mage, +3</text></item>
+            <item><weight>5</weight><text>Instrument, +3</text></item>
+
+            <item><weight>1</weight><text>Tome of Understanding</text></item>
+            <item><weight>1</weight><text>Tome of Leadership and Influence</text></item>
+            <item><weight>1</weight><text>Tome of Clear Thought</text></item>
+            <item><weight>1</weight><text>Manual of Quickness of Action</text></item>
+            <item><weight>1</weight><text>Manual of Gainful Exercise</text></item>
+            <item><weight>1</weight><text>Manual of Bodily Health</text></item>
+        </list>
+    </table>
+</tables>

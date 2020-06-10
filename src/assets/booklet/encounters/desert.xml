@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<biome>
+    <order>2</order>
+    <title>Desert</title>
+    <levelrange>
+        <header>Level Range 1-4</header>
+        <encounter><low>1</low><high>2</high><text>3d8 scorpions </text></encounter>
+        <encounter><low>2</low><high>3</high><text>2d4 vultures </text></encounter>
+        <encounter><low>3</low><high>4</high><text>1 abandoned mule </text></encounter>
+        <encounter><low>4</low><high>5</high><text>2d6 commoners with 2d4 camels bound for the distant city</text></encounter>
+        <encounter><low>5</low><high>6</high><text>ld6 flying snakes</text></encounter>
+        <encounter><low>6</low><high>7</high><text>2d6 hyenas or 2d6 jackals </text></encounter>
+        <encounter><low>7</low><high>8</high><text>1d6 guards escorting a noble to the edge of the desert, all of them astride camels</text></encounter>
+        <encounter><low>8</low><high>9</high><text>1d6 cats</text></encounter>
+        <encounter><low>9</low><high>10</high><text>1 pseudodragon</text></encounter>
+        <encounter><low>10</low><high>11</high><text>1d4 poisonous snakes</text></encounter>
+        <encounter><low>11</low><high>14</high><text>2d4 stirges</text></encounter>
+        <encounter><low>14</low><high>16</high><text>1d6 + 2 giant wolf spiders</text></encounter>
+        <encounter><low>16</low><high>18</high><text>1 scout</text></encounter>
+        <encounter><low>18</low><high>21</high><text>2d4 giant poisonous snakes</text></encounter>
+        <encounter><low>21</low><high>26</high><text>Single-file tracks marching deeper into the desert</text></encounter>
+        <encounter><low>26</low><high>28</high><text>4d4 kobolds</text></encounter>
+        <encounter><low>28</low><high>30</high><text>1 jackalwere</text></encounter>
+        <encounter><low>30</low><high>32</high><text>3d6 tribal warriors</text></encounter>
+        <encounter><low>32</low><high>34</high><text>ld6 giant lizards </text></encounter>
+        <encounter><low>34</low><high>36</high><text>1 swarm of insects </text></encounter>
+        <encounter><low>36</low><high>41</high><text>An oasis surrounded by palm trees and containing the remnants of an old camp</text></encounter>
+        <encounter><low>41</low><high>45</high><text>3d6 bandits </text></encounter>
+        <encounter><low>45</low><high>47</high><text>ld4 constrictor snakes</text></encounter>
+        <encounter><low>47</low><high>49</high><text>2d4 winged kobolds</text></encounter>
+        <encounter><low>49</low><high>51</high><text>1 dust mephit </text></encounter>
+        <encounter><low>51</low><high>53</high><text>ld4 giant scorpions</text></encounter>
+        <encounter><low>53</low><high>55</high><text>1d4 giant spiders</text></encounter>
+        <encounter><low>55</low><high>56</high><text>1 druid</text></encounter>
+        <encounter><low>56</low><high>58</high><text>2d4 hobgoblins</text></encounter>
+        <encounter><low>58</low><high>59</high><text>1 wight</text></encounter>
+        <encounter><low>59</low><high>61</high><text>1 ogre </text></encounter>
+        <encounter><low>61</low><high>66</high><text>A brass lamp lying on the ground</text></encounter>
+        <encounter><low>66</low><high>68</high><text>ld4 giant vultures</text></encounter>
+        <encounter><low>68</low><high>69</high><text>1 phase spider</text></encounter>
+        <encounter><low>69</low><high>70</high><text>1 giant constrictor snake </text></encounter>
+        <encounter><low>70</low><high>72</high><text>1 gnoll pack lord with ld3 giant hyenas</text></encounter>
+        <encounter><low>72</low><high>73</high><text>ld6 + 2 gnolls</text></encounter>
+        <encounter><low>73</low><high>75</high><text>1 mummy </text></encounter>
+        <encounter><low>75</low><high>76</high><text>1 d3 half-ogres</text></encounter>
+        <encounter><low>76</low><high>81</high><text>A pile of humanoid bones wrapped in rotting cloth </text></encounter>
+        <encounter><low>81</low><high>83</high><text>1 lamia</text></encounter>
+        <encounter><low>83</low><high>84</high><text>1 hobgoblin captain with 2d6 hobgoblins</text></encounter>
+        <encounter><low>84</low><high>85</high><text>2d4 death dogs</text></encounter>
+        <encounter><low>85</low><high>87</high><text>ld4 giant scorpions</text></encounter>
+        <encounter><low>87</low><high>88</high><text>1 yuan-ti malison with 1 d4 + 1 yuan-ti </text></encounter>
+        <encounter><low>88</low><high>90</high><text>1 bandit captain with 1 druid and 3d6 bandits</text></encounter>
+        <encounter><low>90</low><high>91</high><text>2d4 thri-kreen</text></encounter>
+        <encounter><low>91</low><high>92</high><text>1 air elemental </text></encounter>
+        <encounter><low>92</low><high>93</high><text>ld3 couatls</text></encounter>
+        <encounter><low>93</low><high>94</high><text>1 fire elemental</text></encounter>
+        <encounter><low>94</low><high>95</high><text>ld4 gnoll fangs of Yeenoghu</text></encounter>
+        <encounter><low>95</low><high>96</high><text>1 revenant</text></encounter>
+        <encounter><low>96</low><high>97</high><text>1d4 weretigers</text></encounter>
+        <encounter><low>97</low><high>98</high><text>1 cyclops</text></encounter>
+        <encounter><low>98</low><high>99</high><text>1 young brass dragon</text></encounter>
+        <encounter><low>99</low><high>100</high><text>1 medusa</text></encounter>
+        <encounter><low>100</low><high>101</high><text>1 yuan-ti abomination</text></encounter>
+    </levelrange>
+    <levelrange>
+        <header>Level Range 5-10</header>
+        <encounter><low>1</low><high>2</high><text>1d6 scouts</text></encounter>
+        <encounter><low>2</low><high>3</high><text>2d4 jackalweres</text></encounter>
+        <encounter><low>3</low><high>4</high><text>2d6 hobgoblins</text></encounter>
+        <encounter><low>4</low><high>5</high><text>1d4+3 dust mephits</text></encounter>
+        <encounter><low>5</low><high>6</high><text>1d6 swarms of insects</text></encounter>
+        <encounter><low>6</low><high>7</high><text>1 giant constrictor snake</text></encounter>
+        <encounter><low>7</low><high>9</high><text>1 lion</text></encounter>
+        <encounter><low>9</low><high>11</high><text>2d4 gnolls</text></encounter>
+        <encounter><low>11</low><high>13</high><text>2d6 giant toads</text></encounter>
+        <encounter><low>13</low><high>18</high><text>1 mummy</text></encounter>
+        <encounter><low>18</low><high>21</high><text>1d8+1 giant vultures</text></encounter>
+        <encounter><low>21</low><high>26</high><text>A stone obelisk partly buried in the sand</text></encounter>
+        <encounter><low>26</low><high>29</high><text>1 ogre with 1d3 half-ogres</text></encounter>
+        <encounter><low>29</low><high>36</high><text>1d10 giant hyenas</text></encounter>
+        <encounter><low>36</low><high>41</high><text>1d6+1 empty tents</text></encounter>
+        <encounter><low>41</low><high>44</high><text>1d6+2 thri-keen</text></encounter>
+        <encounter><low>44</low><high>47</high><text>2d4 yuan-ti purebloods </text></encounter>
+        <encounter><low>47</low><high>51</high><text>ld6 + 3 death dogs </text></encounter>
+        <encounter><low>51</low><high>53</high><text>ld3 + 1 giant toads   </text></encounter>
+        <encounter><low>53</low><high>54</high><text>1 fire elemental </text></encounter>
+        <encounter><low>54</low><high>56</high><text>1 hobgoblin captain with 3d4 hobgoblins </text></encounter>
+        <encounter><low>56</low><high>57</high><text>ld6 + 2 ogres  </text></encounter>
+        <encounter><low>57</low><high>59</high><text>ld4 lamias </text></encounter>
+        <encounter><low>59</low><high>61</high><text>1 air elemental </text></encounter>
+        <encounter><low>61</low><high>66</high><text>A meteorite resting at the bottom of a glassy crater  </text></encounter>
+        <encounter><low>66</low><high>67</high><text>1 d4 + 1 wights  </text></encounter>
+        <encounter><low>67</low><high>69</high><text>1 young brass dragon </text></encounter>
+        <encounter><low>69</low><high>71</high><text>1 bandit captain with ld3 berserkers and 3d6 </text></encounter>
+        <encounter><low>71</low><high>73</high><text>1 cyclops </text></encounter>
+        <encounter><low>73</low><high>74</high><text>ld4 couatls  </text></encounter>
+        <encounter><low>74</low><high>76</high><text>ld4 yuan-ti malisons </text></encounter>
+        <encounter><low>76</low><high>81</high><text>Strong winds that kick up dust and reduce visibility to ld6 feet for ld4 hours </text></encounter>
+        <encounter><low>81</low><high>84</high><text>1 revenant with 1 d3 wights  </text></encounter>
+        <encounter><low>84</low><high>86</high><text>ld8 + 1 phase spiders  </text></encounter>
+        <encounter><low>86</low><high>88</high><text>ld6 + 2 weretigers purebloods  </text></encounter>
+        <encounter><low>88</low><high>91</high><text>2d4 gnoll fangs of yeenoghu</text></encounter>
+        <encounter><low>91</low><high>92</high><text>1 young blue dragon </text></encounter>
+        <encounter><low>92</low><high>93</high><text>1d4 cyclopes </text></encounter>
+        <encounter><low>93</low><high>94</high><text>ld3 yuan-ti </text></encounter>
+        <encounter><low>94</low><high>95</high><text>ld4 medusas </text></encounter>
+        <encounter><low>95</low><high>96</high><text>1 guardian naga  </text></encounter>
+        <encounter><low>96</low><high>97</high><text>ld3 young brass dragons </text></encounter>
+        <encounter><low>97</low><high>98</high><text>1 efreeti </text></encounter>
+        <encounter><low>98</low><high>99</high><text>1 roe </text></encounter>
+        <encounter><low>99</low><high>100</high><text>1 gynosphinx </text></encounter>
+        <encounter><low>100</low><high>101</high><text>1 adult brass dragon </text></encounter>
+    </levelrange>
+    <levelrange>
+        <header>Level Range 11-16</header>
+        <encounter><low>1</low><high>2</high><text>1 young brass dragon </text></encounter>
+        <encounter><low>2</low><high>6</high><text>4d6 gnolls </text></encounter>
+        <encounter><low>6</low><high>11</high><text>3d10 giant hyenas </text></encounter>
+        <encounter><low>11</low><high>13</high><text>ld8 + 1 lamias</text></encounter>
+        <encounter><low>13</low><high>15</high><text>2d4 gnoll fangs of Yeenoghu </text></encounter>
+        <encounter><low>15</low><high>18</high><text>ld6 + 2 giant scorpions </text></encounter>
+        <encounter><low>18</low><high>21</high><text>2d4 phase spiders </text></encounter>
+        <encounter><low>21</low><high>26</high><text>A desert caravan consisting of 1 d6 merchants {no-</text></encounter>
+        <encounter><low>26</low><high>28</high><text>ld6 + 1 couatls </text></encounter>
+        <encounter><low>28</low><high>31</high><text>ld4 fire elementals </text></encounter>
+        <encounter><low>31</low><high>33</high><text>1 hobgoblin captain with 3d10 + 10 hobgoblins</text></encounter>
+        <encounter><low>33</low><high>36</high><text>2d4 wights </text></encounter>
+        <encounter><low>36</low><high>41</high><text>ld6 square miles of desert glass </text></encounter>
+        <encounter><low>41</low><high>43</high><text>l young blue dragon </text></encounter>
+        <encounter><low>43</low><high>46</high><text>ld6 + 2 weretigers </text></encounter>
+        <encounter><low>46</low><high>49</high><text>ld4 air elementals </text></encounter>
+        <encounter><low>49</low><high>51</high><text>1d6+1 yuan-ti malisons</text></encounter>
+        <encounter><low>51</low><high>56</high><text>1d4 medusas</text></encounter>
+        <encounter><low>56</low><high>61</high><text>1d4 revenants with 3d12 skeletons</text></encounter>
+        <encounter><low>61</low><high>66</high><text>A plundered pyramid</text></encounter>
+        <encounter><low>66</low><high>71</high><text>1d4 young brass dragons71-75 1d3 yuan-ti abominations</text></encounter>
+        <encounter><low>76</low><high>79</high><text>1d6+2 cyclopes</text></encounter>
+        <encounter><low>79</low><high>83</high><text>1 adult brass dragon</text></encounter>
+        <encounter><low>83</low><high>86</high><text>1 purple worm</text></encounter>
+        <encounter><low>86</low><high>87</high><text>1d2 young blue dragons</text></encounter>
+        <encounter><low>87</low><high>89</high><text>1 mummy lord</text></encounter>
+        <encounter><low>89</low><high>90</high><text>1d3 guardian nagas</text></encounter>
+        <encounter><low>90</low><high>91</high><text>1 adult blue dragon91-91 1d2 gynosphinxes</text></encounter>
+        <encounter><low>92</low><high>94</high><text>1d3 efreeti</text></encounter>
+        <encounter><low>94</low><high>95</high><text>androsphinx</text></encounter>
+        <encounter><low>95</low><high>96</high><text>1d4 rocs</text></encounter>
+        <encounter><low>96</low><high>98</high><text>1 adult blue dracolich</text></encounter>
+        <encounter><low>98</low><high>100</high><text>1 ancient brass dragon</text></encounter>
+        <encounter><low>100</low><high>101</high><text>1 ancient blue dragon</text></encounter>
+    </levelrange>
+    <levelrange>
+        <header>Level Range 17-20</header>
+        <encounter><low>1</low><high>6</high><text>adult brass dragon</text></encounter>
+        <encounter><low>6</low><high>11</high><text>1d2 yuan-ti abominations with 2d10+5 yuan-ti malisons and 4d6+6 yuan-ti purebloods</text></encounter>
+        <encounter><low>11</low><high>15</high><text>1d6+2 medusas</text></encounter>
+        <encounter><low>15</low><high>19</high><text>1d2 purple worms</text></encounter>
+        <encounter><low>19</low><high>23</high><text>2d4 cyclopes</text></encounter>
+        <encounter><low>23</low><high>26</high><text>An abandoned city made from white marble, empty during the day.  At night, harmless apparitions roam the streets, replaying the final moments of their lives.</text></encounter>
+        <encounter><low>26</low><high>31</high><text>1d3 young blue dragons</text></encounter>
+        <encounter><low>31</low><high>36</high><text>1 mummy lord</text></encounter>
+        <encounter><low>36</low><high>41</high><text>1d4 hours of extreme heat (see chapter 5 of the Dungeon Master's Guide)</text></encounter>
+        <encounter><low>41</low><high>51</high><text>1d3 guardian nagas</text></encounter>
+        <encounter><low>51</low><high>61</high><text>1d4 efreeti</text></encounter>
+        <encounter><low>61</low><high>64</high><text>An old signpost identifying a single destination, called Pazar</text></encounter>
+        <encounter><low>64</low><high>73</high><text>1d4 rocs</text></encounter>
+        <encounter><low>73</low><high>81</high><text>1d3 gynosphinxes</text></encounter>
+        <encounter><low>81</low><high>86</high><text>1 adult blue dracolich</text></encounter>
+        <encounter><low>86</low><high>91</high><text>1 androsphinx</text></encounter>
+        <encounter><low>91</low><high>97</high><text>1 ancient brass dragon</text></encounter>
+        <encounter><low>97</low><high>100</high><text>1 ancient blue dragon</text></encounter>
+        <encounter><low>100</low><high>101</high><text>1d4 adult brass dragons</text></encounter>
+    </levelrange>
+</biome>

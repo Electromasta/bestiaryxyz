@@ -1,17 +1,19 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ConsoleComponent } from './console/console.component';
-import { XgteComponent } from './xgte/xgte.component';
-import { DmgComponent } from './dmg/dmg.component';
-import { TiylComponent } from './tiyl/tiyl.component';
+
+import { EncounterComponent } from './encounter/encounter.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { TroveComponent } from './trove/trove.component';
+import { MakerComponent } from './maker/maker.component';
+import { HeroComponent } from './hero/hero.component';
+
 
 const routes: Routes = [
-  {path: '', component: ConsoleComponent},
-  {path: 'console', component: ConsoleComponent},
-  {path: 'xgte', component: XgteComponent},
-  {path: 'dmg', component: DmgComponent},
-  {path: 'tiyl', component: TiylComponent},
+  {path: '', component: HeroComponent},
+  {path: 'encounter', component: EncounterComponent},
+  {path: 'trove', component: TroveComponent},
+  {path: 'maker', component: MakerComponent},
+  {path: 'hero', component: HeroComponent},
   {path: '**', component: NotfoundComponent}
 ];
 

@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Navigation */
+.mat-toolbar { position: fixed; z-index: 100; }
+.home { cursor: pointer; }
+
+.main  { margin-top: 74px; padding: 15px; 
+    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 
+    0px 16px 24px 2px rgba(0, 0, 0, 0.14), 
+    0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+.card { min-width: 250px; max-width: 18%; cursor: pointer; }
+.cardtext { font-weight: 500; text-align: center; }
+
+/* Navigation, Side Panel and Tabs 
+.mat-tab-body .mat-tab-body-content { overflow-x: visible; overflow-y: visible; overflow: visible; height: 100% } 
+
+.nav { width: 100%; height: 100%; }
+
+.navbody { padding: 10px; position: fixed; margin-top: 64px; }
+.navbody a { color: rgb(24, 41, 41); text-decoration: none; }
+.navbody h3 { font-weight: 450; text-decoration: none; margin: 0px; }
+.navbody p { color: #A9A9A9; margin-left: 30px; }
+.navcontents { margin-top: 64px; margin-bottom: 200px; }
+[hidden] { display: none !important; }
+
+.mat-tab-label  { color: #696969}
+
+h3 { text-decoration: underline; }
+.nav h4 { margin: 0 0 0px; }
+strong { font-weight: 450; }
+th { font-weight: 450; }*/
+.treasurecard {width: 100%; }
+
+.mat-list .mat-list-item {
+    height: 30px !important; 
+  }
+
+div .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+}
+
+/* Color Override */
+.mat-toolbar.mat-primary { background: #8B4513; }
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar { background: #8B4513; }
+.mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit { background: #8B4513; }

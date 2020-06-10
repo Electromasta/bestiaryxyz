@@ -1,0 +1,48 @@
+<div fxFlex="15%" fxFlex.md="5%" fxFlex.sm="2%" fxFlex.xs="2%"></div><div fxFlex fxLayout="column" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="space-evenly center" fxLayoutGap="15px" class="main">
+
+    <div fxFlex="100">
+        <mat-form-field>
+            <mat-label>Tier</mat-label>
+            <mat-select (selectionChange)="tierChanged($event)">
+                <mat-option *ngFor="let tier of tierList" [value]="tier">
+                    {{tier}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Coinage</mat-label>
+            <mat-select (selectionChange)="coinChanged($event)">
+                <mat-option *ngFor="let c of cultureList" [value]="c">
+                    {{c}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <!--<mat-form-field>
+            <mat-label>World Tendancy</mat-label>
+            <mat-select (selectionChange)="tierChanged($event)">
+                <mat-option *ngFor="let w of worldTendancyList" [value]="w">
+                    {{w}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Trove Catagory</mat-label>
+            <mat-select (selectionChange)="tierChanged($event)">
+                <mat-option *ngFor="let t of troveTypeList" [value]="t">
+                    {{t}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>-->
+    
+        <button (click)="rollEncounter()" style="margin-left: 20px;" mat-raised-button>Open Trove!</button>
+    </div>
+
+    <div fxFlex="100" class="treasurecard">
+        <mat-list fxLayout="column" fxLayoutAlign="center stretch" fxFlexOffset="35%" fxFlexOffset.md="20%" fxFlexOffset.sm="2%" fxFlexOffset.xs="2%">
+            <mat-list-item *ngFor="let x of trove">
+                {{x}}
+            </mat-list-item>
+        </mat-list>
+    </div>
+
+</div><div fxFlex="15%" fxFlex.md="5%" fxFlex.sm="2%" fxFlex.xs="2%"></div>

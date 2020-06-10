@@ -2,33 +2,69 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
 import { AppComponent } from './app.component';
-import { ConsoleComponent } from './console/console.component';
-import { XgteComponent } from './xgte/xgte.component';
-import { DmgComponent } from './dmg/dmg.component';
-import { NotfoundComponent } from './notfound/notfound.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
-import { DiceService } from './dice.service';
-import { TiylComponent } from './tiyl/tiyl.component';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatCardModule } from '@angular/material/card';
+import { MatStepperModule } from '@angular/material/stepper';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatSelectModule } from '@angular/material/select';
+import { MatListModule } from '@angular/material/list'; 
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { NgxXml2jsonModule } from 'ngx-xml2json';
+
+import { EncounterComponent } from './encounter/encounter.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { TroveComponent } from './trove/trove.component';
+import { MakerComponent } from './maker/maker.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ConsoleComponent,
-    XgteComponent,
-    DmgComponent,
+    EncounterComponent,
     NotfoundComponent,
-    TiylComponent
+    TroveComponent,
+    MakerComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule
+    BrowserAnimationsModule,
+    BrowserModule, AppRoutingModule, BrowserAnimationsModule, HttpClientModule,
+    ReactiveFormsModule, FormsModule,
+    MatNativeDateModule,
+    MatToolbarModule,
+    MatAutocompleteModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatDatepickerModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatCardModule,
+    MatTabsModule,
+    MatStepperModule,
+    MatDividerModule,
+    MatSelectModule,
+    MatListModule,
+    FlexLayoutModule,
+    NgxXml2jsonModule,
   ],
-  providers: [DiceService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
