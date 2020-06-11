@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<books>
-    <book><name>Beyond the Firmament</name><desc>A collection of accounts of dreams and alleged sightings of sailors and pirates, and speculation on the Far Lands</desc></book>
-    <book><name>Discourse on the Divine</name><desc>Descriptions of the Gods and their followers, and questions the nature of what a diety is</desc></book>
-    <book><name>Joan of Spines</name><desc>Historical Accounts of Joan, famous pirate and later in life, builder</desc></book>
-    <book><name>Gadia and the Birth of Empire</name><desc>Tales of Gadia the Great unifying his culture to fight against the Giants</desc></book>
-    <book><name>Songs of the Ancients Fate</name><desc>Somber and Tragic Myths collected from Oral Traditions of a world before Stars or Fire</desc></book>
-    <book><name>Sword of Seven Virtues</name><desc>A prophecy about the chosen one, said to bring balance to the darkness</desc></book>
-    <book><name>Principi di Sette</name><desc>A book on the Seven Princes, and Pirate History in general</desc></book>
-    <book><name>Trade and Diplomacy</name><desc>A book on the history of Trade and how it can prevent (and start) wars</desc></book>
-    <book><name>Muru's Beloved, or, Two Brothers</name><desc>A history on the myths, culture, and politics of Uru-Bhast and Uru-Nekhan</desc></book>
-    <book><name>The Enchiridian</name><desc>A Book on heroism and stoicism</desc></book>
-    <book><name>Things Betwixt</name><desc>A book on fey, eladrin, and elves, and attempts to bridge the gap of understanding between feyfolk and otherfolk</desc></book>
-    <book><name>Six Saints (Akros Edition)</name><desc>Tale of the Six Saints that helped form the Akrosi Empire, with editing in favor of Akros and excluding Joanapurs Saint</desc></book>
-    <book><name>Six Saints (Joanapur Edition)</name><desc>Tale of the Six Saints that helped form the Akrosi Empire, with editing in favor of Joanapur and excluding Akros' Saint</desc></book>
-    <book><name>Dwarves and Dragons</name><desc>A history of the frozen north and Dwarvern Culture, told by Snorri Pendragon</desc></book>
-    <book><name>A Treatise upon Treaties</name><desc>A pragmatic guide on agreements between countries, common pitfalls, and best practices</desc></book>
-    <book><name>A Brief History of All Things (Volume NN)</name><desc>An ironically named tomb filled with esoteric historical details, 99 in total.</desc></book>
-    <book><name>Epic of Seasons</name><desc>A compilation of 4 epics, each represented by a season and can be told starting with any epic</desc></book>
-    <book><name>The Ballad of the Stolen Lands</name><desc>A tale of two wanderers lost in the stolen lands, fighting against overwhelming odds</desc></book>
-    <book><name>Villainy of Heroism</name><desc>Accounts of Heroes that act less than heroic, and a criticism on hero worship</desc></book>
-    <book><name>The Sea, Our Mother</name><desc>History of Triton, wasting disease, and their pilgrimage to land</desc></book>
-    <book><name>Deepest Darkness</name><desc>Collection of warnings and myths about disaster and the end times</desc></book>
-    <book><name>Conquest</name><desc>A book on the art of war and leadership, written to help new princes</desc></book>
-    <book><name>The Heart of Love</name><desc>True Love and the Beauty of Inner Spirit</desc></book>
-    <book><name>What the Gods Don't Want You to Know</name><desc>Full title: What the Gods Don't Want You to Know: Destiny in the Dice; Abridged, Second Edition</desc></book>
-    <book><name>Tales of Beastfolk</name><desc>While this book contains some history of the Beastfolk, most of it contains fictional short stories with moral lessons</desc></book>
-    <book><name>The Way of Kromgol</name><desc>A religious text that also serves as a history of orcs, and the conflict between traditional tribes and the Jade Road</desc></book>
-    <book><name>Today's Tools</name><desc>Advances and History of Tools and Mechanics</desc></book>
-    <book><name>Precarious Divide </name><desc>A lecture seeking temperance in leadership, and a prediction of war if not heeded</desc></book>
-    <book><name>Conjuration</name><desc>A manual on the Conjuration school of magic</desc></book>
-    <book><name>Necromancy</name><desc>A manual on the Necromancy school of magic</desc></book>
-    <book><name>Evocation</name><desc>A manual on the Evocation school of magic</desc></book>
-    <book><name>Abjuration</name><desc>A manual on the Abjuration school of magic</desc></book>
-    <book><name>Transmutation</name><desc>A manual on the Transmutation school of magic</desc></book>
-    <book><name>Divination</name><desc>A manual on the Divination school of magic</desc></book>
-    <book><name>Enchantment</name><desc>A manual on the Enchantment school of magic</desc></book>
-    <book><name>Illusion</name><desc>A manual on the Illusion school of magic</desc></book>
-    <book><name>Man: Great and Folly</name><desc>A historical guide to the human race and cultures</desc></book>
-</books>
+<list>
+    <item><name>Beyond the Firmament</name><desc>A collection of accounts of dreams and alleged sightings of sailors and pirates, and speculation on the Far Lands</desc></item>
+    <item><name>Discourse on the Divine</name><desc>Descriptions of the Gods and their followers, and questions the nature of what a diety is</desc></item>
+    <item><name>Joan of Spines</name><desc>Historical Accounts of Joan, famous pirate and later in life, builder</desc></item>
+    <item><name>Gadia and the Birth of Empire</name><desc>Tales of Gadia the Great unifying his culture to fight against the Giants</desc></item>
+    <item><name>Songs of the Ancients Fate</name><desc>Somber and Tragic Myths collected from Oral Traditions of a world before Stars or Fire</desc></item>
+    <item><name>Sword of Seven Virtues</name><desc>A prophecy about the chosen one, said to bring balance to the darkness</desc></item>
+    <item><name>Principi di Sette</name><desc>A book on the Seven Princes, and Pirate History in general</desc></item>
+    <item><name>Trade and Diplomacy</name><desc>A book on the history of Trade and how it can prevent (and start) wars</desc></item>
+    <item><name>Muru's Beloved, or, Two Brothers</name><desc>A history on the myths, culture, and politics of Uru-Bhast and Uru-Nekhan</desc></item>
+    <item><name>The Enchiridian</name><desc>A Book on heroism and stoicism</desc></item>
+    <item><name>Things Betwixt</name><desc>A book on fey, eladrin, and elves, and attempts to bridge the gap of understanding between feyfolk and otherfolk</desc></item>
+    <item><name>Six Saints (Akros Edition)</name><desc>Tale of the Six Saints that helped form the Akrosi Empire, with editing in favor of Akros and excluding Joanapurs Saint</desc></item>
+    <item><name>Six Saints (Joanapur Edition)</name><desc>Tale of the Six Saints that helped form the Akrosi Empire, with editing in favor of Joanapur and excluding Akros' Saint</desc></item>
+    <item><name>Dwarves and Dragons</name><desc>A history of the frozen north and Dwarvern Culture, told by Snorri Pendragon</desc></item>
+    <item><name>A Treatise upon Treaties</name><desc>A pragmatic guide on agreements between countries, common pitfalls, and best practices</desc></item>
+    <item><name>A Brief History of All Things (Volume NN)</name><desc>An ironically named tomb filled with esoteric historical details, 99 in total.</desc></item>
+    <item><name>Epic of Seasons</name><desc>A compilation of 4 epics, each represented by a season and can be told starting with any epic</desc></item>
+    <item><name>The Ballad of the Stolen Lands</name><desc>A tale of two wanderers lost in the stolen lands, fighting against overwhelming odds</desc></item>
+    <item><name>Villainy of Heroism</name><desc>Accounts of Heroes that act less than heroic, and a criticism on hero worship</desc></item>
+    <item><name>The Sea, Our Mother</name><desc>History of Triton, wasting disease, and their pilgrimage to land</desc></item>
+    <item><name>Deepest Darkness</name><desc>Collection of warnings and myths about disaster and the end times</desc></item>
+    <item><name>Conquest</name><desc>A book on the art of war and leadership, written to help new princes</desc></item>
+    <item><name>The Heart of Love</name><desc>True Love and the Beauty of Inner Spirit</desc></item>
+    <item><name>What the Gods Don't Want You to Know</name><desc>Full title: What the Gods Don't Want You to Know: Destiny in the Dice; Abridged, Second Edition</desc></item>
+    <item><name>Tales of Beastfolk</name><desc>While this book contains some history of the Beastfolk, most of it contains fictional short stories with moral lessons</desc></item>
+    <item><name>The Way of Kromgol</name><desc>A religious text that also serves as a history of orcs, and the conflict between traditional tribes and the Jade Road</desc></item>
+    <item><name>Today's Tools</name><desc>Advances and History of Tools and Mechanics</desc></item>
+    <item><name>Precarious Divide </name><desc>A lecture seeking temperance in leadership, and a prediction of war if not heeded</desc></item>
+    <item><name>Conjuration</name><desc>A manual on the Conjuration school of magic</desc></item>
+    <item><name>Necromancy</name><desc>A manual on the Necromancy school of magic</desc></item>
+    <item><name>Evocation</name><desc>A manual on the Evocation school of magic</desc></item>
+    <item><name>Abjuration</name><desc>A manual on the Abjuration school of magic</desc></item>
+    <item><name>Transmutation</name><desc>A manual on the Transmutation school of magic</desc></item>
+    <item><name>Divination</name><desc>A manual on the Divination school of magic</desc></item>
+    <item><name>Enchantment</name><desc>A manual on the Enchantment school of magic</desc></item>
+    <item><name>Illusion</name><desc>A manual on the Illusion school of magic</desc></item>
+    <item><name>Man: Great and Folly</name><desc>A historical guide to the human race and cultures</desc></item>
+</list>

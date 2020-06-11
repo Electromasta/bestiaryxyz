@@ -33,6 +33,12 @@ h3 { text-decoration: underline; }
 strong { font-weight: 450; }
 th { font-weight: 450; }*/
 .treasurecard {width: 100%; }
+.nonmagic { border: 2px solid #d6d6d6; padding: 6px; margin: 2px; color: #d6d6d6; background-color: #4b4b4b; font-size: large; }
+.notable { border: 2px solid #000; padding: 6px; margin: 2px; color: #000; background-color: #d2b187; font-size: large; }
+.common { border: 2px solid #4169E1; padding: 6px; margin: 2px; color: #4169E1; background-color: #d2b187; font-size: large; }
+.magic { border: 3px solid #658cff; padding: 6px; margin: 2px; color: #658cff; background-color: #14283c; font-size: large; }
+.rare { border: 3px solid #ffff77; padding: 6px; margin: 2px; color: #ffff77; background-color: #35473c;  font-size: large; }
+.legendary { border: 3px solid #af6025; padding: 6px; margin: 2px; color: #af6025; background-color: #350d0d;  font-size: large; }
 
 .mat-list .mat-list-item {
     height: 30px !important; 

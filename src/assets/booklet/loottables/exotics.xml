@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<exotics>
-    <exotic><name>Dueling Sword</name><price>15 gp</price></exotic>
-    <exotic><name>Moon Staff</name><price>15 gp</price></exotic>
-    <exotic><name>Parrying Dagger</name><price>5 gp</price></exotic>
-    <exotic><name>Urgrosh</name><price>20 gp</price></exotic>
-    <exotic><name>War Crossbow</name><price>75 gp</price></exotic>
-    <exotic><name>Orcish Maul</name><price>25 gp</price></exotic>
-    <exotic><name>Rifle Spear</name><price>350 gp</price></exotic>
-    <exotic><name>Swordspear</name><price>20 gp</price></exotic>
-    <exotic><name>Flintlock Pistol</name><price>500 gp</price></exotic>
-    <exotic><name>Blunderbuss</name><price>350 gp</price></exotic>
-    <exotic><name>Flintlock Rifle</name><price>500 gp</price></exotic>
-    <exotic><name>Dire [Melee Weapon]</name><price>+100 gp</price></exotic>
-    <exotic><name>Paired [Melee Weapon]</name><price>x2 gp</price></exotic>
-    <exotic><name>Mitheral [Weapon]</name><price>+350 gp</price></exotic>
-    <exotic><name>Mitheral [Armor]</name><price>+1000 gp</price></exotic>
-    <exotic><name>Adamantine [Weapon]</name><price>+500 gp</price></exotic>
-    <exotic><name>Adamantine [Armor]</name><price>+10,000 gp</price></exotic>
-    <exotic><name>Ironwood [Armor]</name><price>+200 gp</price></exotic>
-    <exotic><name>Dragonhide [Armor]</name><price>+400 gp</price></exotic>
-    <exotic><name>Cold Iron [Weapon]</name><price>+100 gp</price></exotic>
-    <exotic><name>Crucible Steel [Weapon]</name><price>+350 gp</price></exotic>
-    <exotic><name>Silver [Weapon]</name><price>+100 gp</price></exotic>
-    <exotic><name>Clogs/Straw Sandals</name><price>-</price></exotic>
-    <exotic><name>Caligae (Sandal-Boot)</name><price>10 sp</price></exotic>
-    <exotic><name>Hiking Treads</name><price>50 sp</price></exotic>
-    <exotic><name>Cavalier Boots</name><price>250 sp</price></exotic>
-    <exotic><name>Snow Shoes</name><price>100 sp</price></exotic>
-    <exotic><name>Phrygian Cap</name><price>5cp to 5sp</price></exotic>
-    <exotic><name>Sun Hat</name><price>10 cp</price></exotic>
-    <exotic><name>Woolen Hat</name><price>50 sp</price></exotic>
-    <exotic><name>Desert Hood</name><price>10 sp</price></exotic>
-    <exotic><name>Googles</name><price>5,000 sp</price></exotic>
-    <exotic><name>Walking Stick</name><price>2 sp</price></exotic>
-    <exotic><name>Windbreaker</name><price>50 sp</price></exotic>
-    <exotic><name>Fur Cloak</name><price>250 sp</price></exotic>
-    <exotic><name>Leather Cloak</name><price>250 sp</price></exotic>
-    <exotic><name>Desert Cloak</name><price>100 sp</price></exotic>
-    <exotic><name>Camouflage Cloak</name><price>500 sp</price></exotic>
-</exotics>
+<list>
+    <item><name>Dueling Sword</name><price>15 gp</price></item>
+    <item><name>Moon Staff</name><price>15 gp</price></item>
+    <item><name>Parrying Dagger</name><price>5 gp</price></item>
+    <item><name>Urgrosh</name><price>20 gp</price></item>
+    <item><name>War Crossbow</name><price>75 gp</price></item>
+    <item><name>Orcish Maul</name><price>25 gp</price></item>
+    <item><name>Rifle Spear</name><price>350 gp</price></item>
+    <item><name>Swordspear</name><price>20 gp</price></item>
+    <item><name>Flintlock Pistol</name><price>500 gp</price></item>
+    <item><name>Blunderbuss</name><price>350 gp</price></item>
+    <item><name>Flintlock Rifle</name><price>500 gp</price></item>
+    <item><name>Dire [Melee Weapon]</name><price>+100 gp</price></item>
+    <item><name>Paired [Melee Weapon]</name><price>x2 gp</price></item>
+    <item><name>Mitheral [Weapon]</name><price>+350 gp</price></item>
+    <item><name>Mitheral [Armor]</name><price>+1000 gp</price></item>
+    <item><name>Adamantine [Weapon]</name><price>+500 gp</price></item>
+    <item><name>Adamantine [Armor]</name><price>+10,000 gp</price></item>
+    <item><name>Ironwood [Armor]</name><price>+200 gp</price></item>
+    <item><name>Dragonhide [Armor]</name><price>+400 gp</price></item>
+    <item><name>Cold Iron [Weapon]</name><price>+100 gp</price></item>
+    <item><name>Crucible Steel [Weapon]</name><price>+350 gp</price></item>
+    <item><name>Silver [Weapon]</name><price>+100 gp</price></item>
+    <item><name>Clogs/Straw Sandals</name><price>-</price></item>
+    <item><name>Caligae (Sandal-Boot)</name><price>10 sp</price></item>
+    <item><name>Hiking Treads</name><price>50 sp</price></item>
+    <item><name>Cavalier Boots</name><price>250 sp</price></item>
+    <item><name>Snow Shoes</name><price>100 sp</price></item>
+    <item><name>Phrygian Cap</name><price>5cp to 5sp</price></item>
+    <item><name>Sun Hat</name><price>10 cp</price></item>
+    <item><name>Woolen Hat</name><price>50 sp</price></item>
+    <item><name>Desert Hood</name><price>10 sp</price></item>
+    <item><name>Googles</name><price>5,000 sp</price></item>
+    <item><name>Walking Stick</name><price>2 sp</price></item>
+    <item><name>Windbreaker</name><price>50 sp</price></item>
+    <item><name>Fur Cloak</name><price>250 sp</price></item>
+    <item><name>Leather Cloak</name><price>250 sp</price></item>
+    <item><name>Desert Cloak</name><price>100 sp</price></item>
+    <item><name>Camouflage Cloak</name><price>500 sp</price></item>
+</list>

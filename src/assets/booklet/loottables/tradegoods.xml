@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<tradegoods>
-    <goods>1 lb. of wheat</goods><price>1 cp</price>
-    <goods>1 lb of Lard or Butter</goods><price>2 cp</price>
-    <goods>1 lb. of flour or one chicken</goods><price>2 cp</price>
-    <goods>1 hod of Bricks</goods><price>3 cp</price>
-    <goods>1 Sack of Potatoes/Turnips/Carrots/Corn</goods><price>3 cp</price>
-    <goods>1 lb. of salt</goods><price>5 cp</price>
-    <goods>1 lb. of iron or 1 sq. yd. of canvas</goods><price>1 sp</price>
-    <goods>1 lb. of copper or 1 sq. yd. of cotton cloth</goods><price>5 sp</price>
-    <goods>1 Cord of Wood</goods><price>1 gp</price>
-    <goods>1 lb. of ginger or one goat</goods><price>1 gp</price>
-    <goods>1 lb. of cinnamon or pepper, or one sheep</goods><price>2 gp</price>
-    <goods>1 lb. of cloves or one pig</goods><price>3 gp</price>
-    <goods>1 lb. of brass</goods><price>3 gp</price>
-    <goods>1 lb. of silver or 1 sq. yd. of linen</goods><price>5 gp</price>
-    <goods>1 sq. yd. of silk or one cow</goods><price>10 gp</price>
-    <goods>1 Crate of Exotic Dye</goods><price>10 gp</price>
-    <goods>1 lb. of saffron or one ox</goods><price>15 gp</price>
-    <goods>1 Cask of Hard Alcohol</goods><price>15 gp</price>
-    <goods>Bundle of Quality Paper</goods><price>20 gp</price>
-    <goods>Bundle of Furs</goods><price>20 gp</price>
-    <goods>1 lb. of gold</goods><price>50 gp</price>
-    <goods>Crate of Weapons</goods><price>50 gp</price>
-    <goods>Cord of Carpets</goods><price>50 gp</price>
-    <goods>1 lb. of platinum</goods><price>500 gp</price>
-</tradegoods>
+<list>
+    <item><name>1 lb. of wheat</name><price>1 cp</price></item>
+    <item><name>1 lb of Lard or Butter</name><price>2 cp</price></item>
+    <item><name>1 lb. of flour or one chicken</name><price>2 cp</price></item>
+    <item><name>1 hod of Bricks</name><price>3 cp</price></item>
+    <item><name>1 Sack of Potatoes/Turnips/Carrots/Corn</name><price>3 cp</price></item>
+    <item><name>1 lb. of salt</name><price>5 cp</price></item>
+    <item><name>1 lb. of iron or 1 sq. yd. of canvas</name><price>1 sp</price></item>
+    <item><name>1 lb. of copper or 1 sq. yd. of cotton cloth</name><price>5 sp</price></item>
+    <item><name>1 Cord of Wood</name><price>1 gp</price></item>
+    <item><name>1 lb. of ginger or one goat</name><price>1 gp</price></item>
+    <item><name>1 lb. of cinnamon or pepper, or one sheep</name><price>2 gp</price></item>
+    <item><name>1 lb. of cloves or one pig</name><price>3 gp</price></item>
+    <item><name>1 lb. of brass</name><price>3 gp</price></item>
+    <item><name>1 lb. of silver or 1 sq. yd. of linen</name><price>5 gp</price></item>
+    <item><name>1 sq. yd. of silk or one cow</name><price>10 gp</price></item>
+    <item><name>1 Crate of Exotic Dye</name><price>10 gp</price></item>
+    <item><name>1 lb. of saffron or one ox</name><price>15 gp</price></item>
+    <item><name>1 Cask of Hard Alcohol</name><price>15 gp</price></item>
+    <item><name>Bundle of Quality Paper</name><price>20 gp</price></item>
+    <item><name>Bundle of Furs</name><price>20 gp</price></item>
+    <item><name>1 lb. of gold</name><price>50 gp</price></item>
+    <item><name>Crate of Weapons</name><price>50 gp</price></item>
+    <item><name>Cord of Carpets</name><price>50 gp</price></item>
+    <item><name>1 lb. of platinum</name><price>500 gp</price></item>
+</list>
