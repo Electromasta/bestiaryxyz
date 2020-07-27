@@ -22,6 +22,9 @@ import { MatStepperModule } from '@angular/material/stepper';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatSelectModule } from '@angular/material/select';
 import { MatListModule } from '@angular/material/list'; 
+import { MatTooltipModule } from '@angular/material/tooltip'; 
+import { MatSlideToggleModule } from '@angular/material/slide-toggle'; 
+import { ClipboardModule } from '@angular/cdk/clipboard'; 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgxXml2jsonModule } from 'ngx-xml2json';
 
@@ -61,6 +64,9 @@ import { HeroComponent } from './hero/hero.component';
     MatDividerModule,
     MatSelectModule,
     MatListModule,
+    MatTooltipModule,
+    MatSlideToggleModule,
+    ClipboardModule,
     FlexLayoutModule,
     NgxXml2jsonModule,
   ],

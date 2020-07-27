@@ -1,9 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+
 import { NgxXml2jsonService } from 'ngx-xml2json';
 
 import { MatSelectChange } from '@angular/material/select';
+
+//const seedrandom = require('seedrandom');
 
 @Component({
   selector: 'app-trove',
@@ -13,43 +19,42 @@ import { MatSelectChange } from '@angular/material/select';
 export class TroveComponent implements OnInit {
   private headers = new HttpHeaders(); 
   private filelocal = 'assets/booklet/loottables/';
-  tierList = ["Tier 1 - Gritty", "Tier 2 - Heroic", "Tier 3 - Wuxia", "Tier 4 - Diety"];
-  cultureList = ["Jonapur", "Akros", "Twin Cities"];
+  private audiolocal = 'assets/sounds/';
+  tierList = [{name: "T1(1-4) - Gritty", value: 0}, {name: "T2(5-10) - Heroic", value: 1}, {name: "T3(11-16) - Wuxia", value: 2}, {name: "T4(17+) - Diety", value: 3}];
+  cultureList = [{name: "Standard", value: 0}, {name: "Jonapur", value: 1}, {name: "Akros", value: 2}, {name: "Twin Cities", value: 3}];
   worldTendancyList = ["Black", "Blue", "White", "Red", "Green"];
-  troveTypeList = [{name: "Individual", value: 0.2}, {name: "Trove", value: 1}, {name: "Double Trove", value: 2}, {name: "TRIPLE Trove", value: 3}];
+  audiofiles = [new Audio(this.audiolocal + "gold.wav"), new Audio(this.audiolocal + "ring.wav"), new Audio(this.audiolocal + "flippy.wav"), new Audio(this.audiolocal + "potiondrink.wav"), new Audio(this.audiolocal + "rare.wav"), new Audio(this.audiolocal + "handofgod.wav"), new Audio(this.audiolocal + "portalcast.wav")];
+
+  seed = new Date().getTime();
+  prevseed = this.seed;
+  showpopover = false;
 
   coins = [
-    [[12, 6, 100, 0], [6, 6, 100, 0], [4, 6, 10, 0], [2, 6, 1, -4], [1, 6, 0, 0]],
-    [[2, 6, 100, 0], [2, 6, 1000, 0], [2, 4, 100, 0], [2, 4, 10, 0], [1, 6, 0, 0]],
-    [[1, 6, 0, 0], [2, 6, 100, 0], [6, 6, 100, 0], [2, 6, 10, 0], [2, 6, 1, -4]],
-    [[1, 6, 0, 0], [2, 6, 100, 0], [12, 6, 100, 0], [2, 6, 100, 0], [2, 6, 1, 0]]
-  ];
-
-  icoins = [
-    [[12, 6, 100, 0], [6, 6, 100, 0], [4, 6, 10, 0], [2, 6, 1, -4], [1, 6, 0, 0]],
-    [[2, 6, 100, 0], [2, 6, 1000, 0], [2, 4, 100, 0], [2, 4, 10, 0], [1, 6, 0, 0]],
-    [[1, 6, 0, 0], [2, 6, 100, 0], [6, 6, 100, 0], [2, 6, 10, 0], [2, 6, 1, -4]],
-    [[1, 6, 0, 0], [2, 6, 100, 0], [12, 6, 100, 0], [2, 6, 100, 0], [2, 6, 1, 0]]
+    [[6, 6, 100], [3, 6, 100], [2, 6, 10], [0, 0, 0], [0, 0, 0]],
+    [[2, 6, 100], [2, 6, 1000], [6, 6, 100], [3, 6, 10], [0, 0, 0]],
+    [[0, 0, 0], [0, 0, 0], [4, 6, 1000], [5, 6, 100], [0, 0, 0]],
+    [[0, 0, 0], [0, 0, 0], [12, 6, 1000], [8, 6, 1000], [0, 0, 0]]
   ];
 
   coinage = [
+    ["Copper", "Silver", "Gold", "Platinum", "Platinumx10"],
     ["Copper Pesci", "Silver Pesci", "Silver Serpenti", "Gold Serpenti", "Mithril Serpenti"],
     ["Ses", "Heralds", "Denari", "Crowns", "Divines"],
     ["Papyrus Tablet", "Clay Tablet", "Ivory Tablet", "Gold Tablet", "Electrum Tablet"]
   ];
 
   gemvals = [
-    [[2, 6, 10], [2, 6, 10], [2, 6, 25], [2, 6, 50]],
-    [[2, 4, 25], [2, 6, 50], [2, 6, 100], [1, 4, 250]],
-    [[2, 4, 250], [1, 4, 750], [2, 4, 500], [1, 6, 1000]],
-    [[1, 6, 1000], [1, 4, 2500], [1, 4, 7500], [1, 4, 5000]]
+    [[2, 6, 10], [2, 6, 10], [2, 4, 25], [2, 6, 50]],
+    [[2, 4, 25], [3, 6, 50], [3, 6, 100], [2, 4, 250]],
+    [[2, 4, 250], [2, 4, 750], [3, 6, 500], [3, 6, 1000]],
+    [[3, 6, 1000], [1, 10, 2500], [1, 4, 7500], [1, 8, 5000]]
   ];
 
   chanceDrops = [ //out of 100
-    [35, 0, 0],
-    [45, 5, 0],
-    [5, 25, 5],
-    [5, 5, 15]
+    [0.15, 0, 0],
+    [0.25, 0.05, 0],
+    [0.10, 0.25, 0.05],
+    [0.10, 0.10, 0.25]
   ];
 
   gemmos = [];
@@ -64,19 +69,45 @@ export class TroveComponent implements OnInit {
   data = [this.gemmos, this.books, this.exotics, this.commonitems, this.tradegoods, this.minoritems, this.majoritems];
   commonDistri = [this.commonitems, this.commonitems, this.exotics, this.books];
 
-  tier = 0;
-  coinio = 0;
+  tier = this.tierList[0];
+  coinio = this.cultureList[0];
   multi = 1;
-  trove = [];
+  isChecked = false;
 
-  constructor(private http: HttpClient, private ngxXml2jsonService: NgxXml2jsonService) { 
-    this.headers = this.headers.append('Content-Type', 'text/xml'); 
+  trove = [];
+  prettyprint = [];
+  runningTotal = 0;
+
+  constructor(private http: HttpClient, private ngxXml2jsonService: NgxXml2jsonService, private route: ActivatedRoute, public dialog: MatDialog) { 
+    this.headers = this.headers.append('Content-Type', 'text/xml');
     this.headers = this.headers.append('Accept', 'text/xml');
+
+    this.audiofiles.forEach(a => {
+      a.volume = 0.3;
+    });
 
     for (var i=0; i<this.files.length; i++) {
       this.getTable(i);
     }
-    console.log(this.data);
+
+    this.route.queryParams.subscribe(params => {
+      if (params['tier']) {
+        this.tier = (params['tier']) ? this.tierList[params['tier']-1] : this.tierList[0];
+        this.coinio = (params['coin']) ? this.cultureList[params['coin']-1] : this.cultureList[0];
+        this.seed = params['seed'];
+        this.openDialog();
+      }
+    });
+  }
+
+  openDialog(): void {
+    const dialogRef = this.dialog.open(DialogElementsExampleDialog, {
+      width: '450px'
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      this.rollEncounter();
+    });
   }
 
   getTable(index)  {
@@ -111,6 +142,7 @@ export class TroveComponent implements OnInit {
   makeItem(item, weight)   {
     return {
       "name": (item != null) ? item.name : "",
+      "type": (item != null) ? item.type : "",
       "desc": (item != null) ? item.desc : "",
       "price": (item != null) ? item.price : "",
       "weight": weight
@@ -136,85 +168,94 @@ export class TroveComponent implements OnInit {
     return json;
   }
 
-  tierChanged(selectChangeEvent: MatSelectChange)  {
-    this.tierList.forEach((range, i) => {
-      if (range == selectChangeEvent.value) {
-        this.tier = i;
-      }
-    });
-  }
-
-  coinChanged(selectChangeEvent: MatSelectChange)  {
-    this.cultureList.forEach((c, i) => {
-      if (c == selectChangeEvent.value) {
-        this.coinio = i;
-      }
-    });
-  }
-
-  multiChanged(selectChangeEvent: MatSelectChange)  {
-    this.multi = selectChangeEvent.value;
+  copyToClipboard() {
+    return 'http://localhost:4200/trove/?tier=' + (this.tier.value+1) + '&coin=' + (this.coinio.value+1) + '&seed=' + this.prevseed;
+    //return 'http://bestiary.xyz/trove/?tier=' + (this.tier.value+1) + '&coin=' + (this.coinio.value+1) + '&seed=' + this.prevseed;
   }
 
   rollEncounter()  {
-    var coinTier = this.coins[this.tier];
+    var coinTier = this.coins[this.tier.value];
+    var result = [];
     this.trove = [];
+    this.prettyprint = [];
 
-    if (this.multi != 0.2)  {
-      coinTier.forEach((e, i) =>{
-        var num = ((this.rollDice(e[0], e[1])*e[2])+e[3]);
-        if (num > 0)  this.trove.push({"text": Math.floor(num) + " " + this.coinage[this.coinio][i], class: "nonmagic" });
-      });
+    this.prevseed = this.seed;
+
+    coinTier.forEach((e, i) =>{
+      var num = ((this.rollDice(e[0], e[1])*(e[2])));
+      if (num > 0)  result.push({"text": Math.floor(num) + " " + this.coinage[this.coinio.value][i], class: "nonmagic", audio: 0});
+    });
+
+    for (var i=0; i<this.multiVarDistribution(0.95, 2); i++) {
+      var GEMGEM = this.gemvals[this.tier.value][this.rollDice(1, 4)-1];
+      var NAMENAME = this.gemmos[this.tier.value][this.rollDice(1, 4)-1][Math.floor(this.random() * this.gemmos[this.tier.value].length)].name;
+      result.push({"text": this.rollDice(GEMGEM[0], GEMGEM[1]) + " " + NAMENAME + ", worth " + GEMGEM[2] + " each", class: "nonmagic", audio: 1});
     }
 
-    for (var i=0; i<this.multiVarDistribution(100); i++) {
-      var GEMGEM = this.gemvals[this.tier][this.rollDice(1, 4)-1];
-      var NAMENAME = this.gemmos[this.tier][this.rollDice(1, 4)-1][Math.floor(Math.random() * this.gemmos[this.tier].length)].name;
-      this.trove.push({"text": this.rollDice(GEMGEM[0], GEMGEM[1]) + " " + NAMENAME + ", worth " + GEMGEM[2] + " each", class: "nonmagic" });
-    }
-
-    for (var i=0; i<this.multiVarDistribution(100); i++) {
+    for (var i=0; i<this.multiVarDistribution(0.75, 2); i++) {
       var select = this.rollDice(1, 4)-1;
-      var item = this.commonDistri[select][Math.floor(Math.random() * this.commonDistri[select].length)]
-      this.trove.push({"text": item.name + ((item.desc != null && item.desc.length > 0) ? (": " + item.desc) : ""), class: "notable" });
+      var item = this.commonDistri[select][Math.floor(this.random() * this.commonDistri[select].length)]
+      result.push({"text": item.name, "desc": ((item.desc != null && item.desc.length > 0) ? item.desc : ""), class: "notable", audio: 2});
     }
 
-    for (var i=0; i<this.multiVarDistribution(100); i++) {
-      var c = this.minoritems[0][this.tier][Math.floor(Math.random() * this.minoritems[0][this.tier].length)];
-      this.trove.push({"text": c.name, class: "common" });
+    for (var i=0; i<this.multiVarDistribution(0.75, 6); i++) {
+      var c = this.minoritems[0][this.tier.value][Math.floor(this.random() * this.minoritems[0][this.tier.value].length)];
+      result.push({"text": c.name, class: "common", audio: 3});
     }
 
-    for (var i=0; i<this.multiVarDistribution(this.chanceDrops[this.tier][0]); i++) {
-      this.trove.push({"text": this.rollOnTable(this.majoritems[0][0]).name, class: "magic" });
+    var tierSum = this.chanceDrops[this.tier.value][0] + this.chanceDrops[this.tier.value][1] + this.chanceDrops[this.tier.value][2];
+    for (var i=0; i<this.multiVarDistribution(tierSum, 4); i++) {
+      var picked = this.random();
+      if (picked < (this.chanceDrops[this.tier.value][0]/tierSum))  {
+        var item = this.rollOnTable(this.majoritems[0][0]);
+        result.push({"text": item.name, "type": item.type, "desc": item.desc, "class": "magic", "audio": 4});
+      } else if (picked < (this.chanceDrops[this.tier.value][1]/tierSum))  {
+        var item = this.rollOnTable(this.majoritems[0][1]);
+        result.push({"text": item.name, "type": item.type, "desc": item.desc, "class": "rare", "audio": 5});
+      } else if (picked < (this.chanceDrops[this.tier.value][2]/tierSum))  {
+        var item = this.rollOnTable(this.majoritems[0][2]);
+        result.push({"text": item.name, "type": item.type, "desc": item.desc, "class": "legendary", "audio": 6});
+      }
     }
 
-    for (var i=0; i<this.multiVarDistribution(this.chanceDrops[this.tier][1]); i++) {
-      this.trove.push({"text": this.rollOnTable(this.majoritems[0][1]).name, class: "rare" });
-    }
+    result.forEach(item => {
+      this.prettyprint.push(item);
+    });
 
-    for (var i=0; i<this.multiVarDistribution(this.chanceDrops[this.tier][2]); i++) {
-      this.trove.push({"text": this.rollOnTable(this.majoritems[0][2]).name, class: "legendary" });
-    }
+    this.shuffle(result);
 
-    this.shuffle(this.trove);
+    for (var i=0; i<result.length; i++)  {
+      this.pushToTrove(i, result[i], this.trove, this.audiofiles, this.isChecked);
+    }
+    
+  }
+
+  pushToTrove(i, item, trove, audio, ischecked) {
+    var namespace = this;
+    setTimeout(function() {
+      trove.push(item);
+      if (!ischecked)  audio[item.audio].play();
+    }, 150 * i);
   }
 
   rollDice(dice, faces)  {
     var total = 0;
     for (var i=0; i<dice; i++) 
-      total += Math.floor(Math.random() * faces)+1;
+      total += Math.ceil(this.random() * faces);
     return total;
   }
 
-  multiVarDistribution(baseChance) {
-    var result = Math.floor( ( (baseChance * this.multi) + this.rollDice(1, 100) -1 ) / 100);
-    if (result>0)  result += Math.floor((10 + this.rollDice(1, 100)-1) / 100);
+  multiVarDistribution(baseChance, face) {
+    var result = 0;
+    for (var i=0; i<this.multi; i++) {
+      result += (this.random() < baseChance) ? this.rollDice(1, face) : 0;
+    }
     return result;
   }
 
   rollOnTable(table) {
     var index = 0;
-    var rweight = Math.floor(Math.random() * table[table.length-1].weight);
+    var rweight = Math.floor(this.random() * table[table.length-1].weight);
     var prev = 0;
     table.forEach((e, i) => {
       if (rweight >= prev && rweight <= e.weight) {
@@ -232,7 +273,7 @@ export class TroveComponent implements OnInit {
     while (0 !== currentIndex) {
   
       // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
+      randomIndex = Math.floor(this.random() * currentIndex);
       currentIndex -= 1;
   
       // And swap it with the current element.
@@ -243,4 +284,19 @@ export class TroveComponent implements OnInit {
   
     return array;
   }
+
+  random()  {
+    this.seed ^= this.seed << 21;
+    this.seed ^= this.seed >>> 35;
+    this.seed ^= this.seed << 4;
+    this.seed = Math.abs(this.seed)%1000000000;
+    return this.seed/1000000000;
+  }
 }
+
+
+@Component({
+  selector: 'dialog-elements-example-dialog',
+  templateUrl: 'interaction.html',
+})
+export class DialogElementsExampleDialog {}

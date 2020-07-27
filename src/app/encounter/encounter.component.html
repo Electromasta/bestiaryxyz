@@ -1,4 +1,4 @@
-<div fxFlex="15%" fxFlex.md="5%" fxFlex.sm="2%" fxFlex.xs="2%"></div><div fxFlex fxLayout="column" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="space-evenly center" fxLayoutGap="15px" class="main">
+<div fxFlex="15" fxFlex.md="5" fxFlex.sm="2%" fxFlex.xs="2"></div><div fxFlex fxLayout="column" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="space-evenly center" fxLayoutGap="15px" class="main">
     <div fxFlex="100">
         <mat-form-field *ngIf="biomes">
             <mat-label>Biome</mat-label>
@@ -20,14 +20,17 @@
         <button (click)="rollEncounter()" style="margin-left: 20px;" mat-raised-button>Encounter!</button>
     </div>
 
+
     <div fxFlex="100">
-        <mat-card class="card" *ngIf="encounter">
+        <div fxFlex="10" fxFlex.md="10" fxFlex.sm="2" fxFlex.xs="2"></div>
+        <mat-card fxFlex="80" fxFlex.md="80" fxFlex.sm="96" fxFlex.xs="96" class="card" *ngIf="encounter">
             <mat-card-title>Encountered This:</mat-card-title>
             <mat-card-subtitle>Rolled {{rolled}} in range: [{{encounter.start}}-{{encounter.end}}]</mat-card-subtitle>
             <mat-card-content class="cardtext">
                 {{encounter.desc}}
             </mat-card-content>
         </mat-card>
+        <div fxFlex="10" fxFlex.md="10" fxFlex.sm="2" fxFlex.xs="2"></div>
     </div>
 
-</div><div fxFlex="15%" fxFlex.md="5%" fxFlex.sm="2%" fxFlex.xs="2%"></div>
+</div><div fxFlex="15" fxFlex.md="5" fxFlex.sm="2" fxFlex.xs="2"></div>

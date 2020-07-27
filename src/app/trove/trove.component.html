@@ -1,50 +1,70 @@
-<div fxFlex="15%" fxFlex.md="5%" fxFlex.sm="2%" fxFlex.xs="2%"></div><div fxFlex fxLayout="column" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="space-evenly center" fxLayoutGap="15px" class="main">
+<div fxFlex="15" fxFlex.md="5" fxFlex.sm="2" fxFlex.xs="2"></div><div fxFlex fxLayout="column" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="space-evenly center" fxLayoutGap="15px" class="main">
 
     <div fxFlex="100">
         <mat-form-field>
             <mat-label>Tier</mat-label>
-            <mat-select (selectionChange)="tierChanged($event)">
-                <mat-option *ngFor="let tier of tierList" [value]="tier">
-                    {{tier}}
-                </mat-option>
+            <mat-select [(value)]="tier">
+                <mat-option *ngFor="let t of tierList" [value]="t">{{t.name}}</mat-option>
             </mat-select>
         </mat-form-field>
         <mat-form-field>
             <mat-label>Coinage</mat-label>
-            <mat-select (selectionChange)="coinChanged($event)">
-                <mat-option *ngFor="let c of cultureList" [value]="c">
-                    {{c}}
-                </mat-option>
+            <mat-select [(value)]="coinio">
+                <mat-option *ngFor="let c of cultureList" [value]="c">{{c.name}}</mat-option>
             </mat-select>
         </mat-form-field>
         <mat-form-field>
             <mat-label>World Tendancy</mat-label>
-            <mat-select (selectionChange)="tierChanged($event)">
+            <mat-select disabled="disabled">
                 <mat-option *ngFor="let w of worldTendancyList" [value]="w">
                     {{w}}
                 </mat-option>
             </mat-select>
         </mat-form-field>
         <mat-form-field>
-            <mat-label>Trove Catagory</mat-label>
-            <mat-select (selectionChange)="multiChanged($event)">
-                <mat-option *ngFor="let t of troveTypeList" [value]="t.value">
-                    {{t.name}}
-                </mat-option>
-            </mat-select>
+            <mat-label>Trove Multiplier</mat-label>
+            <input matInput placeholder="1" value="1" [(ngModel)]="multi" maxlength="1" disabled="disabled">
         </mat-form-field>
     
         <button (click)="rollEncounter()" style="margin-left: 20px;" mat-raised-button>Open Trove!</button>
+
+        <mat-slide-toggle [(ngModel)]="isChecked">Pretty Print</mat-slide-toggle>
     </div>
 
-    <div class="treasurecard">
-        <div fxFlex="35%" fxFlex.md="20%" fxFlex.sm="2%" fxFlex.xs="2%"></div>
+    <div class="arow">
+        <div fxFlex="35" fxFlex.md="20" fxFlex.sm="2" fxFlex.xs="2"></div>
         <div fxLayout="row wrap" fxWrap="wrap" fxLayoutAlign="center center">
-            <div fxFlex="1, 0, 0" *ngFor="let x of trove" [ngClass]="x.class">
+            <div fxFlex="1, 0, 0" *ngFor="let x of trove; let i of index" class="treasurecard" [ngClass]="x.class" (mouseover)="showpopover=i" style="position: relative;">
                 {{x.text}}
+                <div class="popover" *ngIf="showpopover==i">
+                    <div class="popovertitle" [ngClass]="x.class">
+                        <div>{{x.text}}</div>
+                        <div class="popoversubtitle"><i>{{x.type}}</i></div>
+                    </div>
+                    <div class="popoverbody">
+                        <p class="popovertext">{{x.desc}}</p>
+                        <p class="popovertext"><i>{{x.flavor}}</i></p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div fxFlex="35%" fxFlex.md="20%" fxFlex.sm="2%" fxFlex.xs="2%"></div>
+        <div fxFlex="35" fxFlex.md="20" fxFlex.sm="2" fxFlex.xs="2"></div>
     </div>
 
-</div><div fxFlex="15%" fxFlex.md="5%" fxFlex.sm="2%" fxFlex.xs="2%"></div>
+    <div *ngIf="isChecked" class="arow">
+        <div fxFlex="35" fxFlex.md="20" fxFlex.sm="2" fxFlex.xs="2"></div>
+        <div fxFlex="30" fxLayout="column">
+            <div fxFlex="1, 0, 0" *ngFor="let x of prettyprint" style="text-align: center;">
+                <strong>{{x.text}}</strong> {{x.desc}}
+            </div>
+        </div>
+        <div fxFlex="35" fxFlex.md="20" fxFlex.sm="2" fxFlex.xs="2"></div>
+    </div>
+
+    <div fxFlex="100" class="treasurecard" *ngIf="trove.length>0">
+        <button [cdkCopyToClipboard]="copyToClipboard()" style="margin-left: 20px;" mat-raised-button>Copy Trove Url</button>
+    </div>
+
+
+
+</div><div fxFlex="15" fxFlex.md="5" fxFlex.sm="2" fxFlex.xs="2"></div>
