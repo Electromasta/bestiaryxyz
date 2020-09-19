@@ -13,18 +13,6 @@
                 <mat-option *ngFor="let c of cultureList" [value]="c">{{c.name}}</mat-option>
             </mat-select>
         </mat-form-field>
-        <mat-form-field>
-            <mat-label>World Tendancy</mat-label>
-            <mat-select disabled="disabled">
-                <mat-option *ngFor="let w of worldTendancyList" [value]="w">
-                    {{w}}
-                </mat-option>
-            </mat-select>
-        </mat-form-field>
-        <mat-form-field>
-            <mat-label>Trove Multiplier</mat-label>
-            <input matInput placeholder="1" value="1" [(ngModel)]="multi" maxlength="1" disabled="disabled">
-        </mat-form-field>
     
         <button (click)="rollEncounter()" style="margin-left: 20px;" mat-raised-button>Open Trove!</button>
 
@@ -34,7 +22,7 @@
     <div class="arow">
         <div fxFlex="35" fxFlex.md="20" fxFlex.sm="2" fxFlex.xs="2"></div>
         <div fxLayout="row wrap" fxWrap="wrap" fxLayoutAlign="center center">
-            <div fxFlex="1, 0, 0" *ngFor="let x of trove; let i of index" class="treasurecard" [ngClass]="x.class" (mouseover)="showpopover=i" style="position: relative;">
+            <div fxFlex="1, 0, 0" *ngFor="let x of trove; let i of index" class="treasurecard" [ngClass]="x.class" (mouseover)="showpopover=i" (mouseout)="showpopover=null" style="position: relative;">
                 {{x.text}}
                 <div class="popover" *ngIf="showpopover==i">
                     <div class="popovertitle" [ngClass]="x.class">
@@ -42,7 +30,7 @@
                         <div class="popoversubtitle"><i>{{x.type}}</i></div>
                     </div>
                     <div class="popoverbody">
-                        <p class="popovertext">{{x.desc}}</p>
+                        <p class="popovertext">{{reduce(x.desc)}}</p>
                         <p class="popovertext"><i>{{x.flavor}}</i></p>
                     </div>
                 </div>
