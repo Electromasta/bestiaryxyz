@@ -27,11 +27,11 @@ jobs:
           node-version: 14
           cache: npm
       - run: npm ci
-      # Served at https://electromasta.github.io/<repo>/ for now. Once a custom domain is set in
-      # Settings → Pages, change BASE_HREF to /
+      # Served at the root of its custom domain (Settings → Pages). For the electromasta.github.io/<repo>/
+      # address instead, use BASE_HREF: /${{ github.event.repository.name }}/
       - run: npx ng build --prod --base-href "$BASE_HREF"
         env:
-          BASE_HREF: /${{ github.event.repository.name }}/
+          BASE_HREF: /
       # Routes are handled in the browser: serve the app for unknown paths too, so deep links work
       - run: cp dist/bestiaryxyz/index.html dist/bestiaryxyz/404.html
       - uses: actions/upload-pages-artifact@v5
