@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpHeaders } from '@angular/common/http';
 
 import { MatDialog } from '@angular/material/dialog';
 
 import { ActivatedRoute, ParamMap } from '@angular/router';
 
 import { NgxXml2jsonService } from 'ngx-xml2json';
+
+import { FakeabaseService } from '../fakeabase.service';
 
 @Component({
   selector: 'app-trove',
@@ -15,7 +17,6 @@ import { NgxXml2jsonService } from 'ngx-xml2json';
 export class TroveComponent implements OnInit {
   private headers = new HttpHeaders(); 
   private audiolocal = 'assets/sounds/';
-  private remote = 'https://eaknep3ofh.execute-api.us-east-1.amazonaws.com/bfapi';
   tierList = [{name: "T1(1-4) - Gritty", value: 0}, {name: "T2(5-10) - Heroic", value: 1}, {name: "T3(11-16) - Wuxia", value: 2}, {name: "T4(17+) - Diety", value: 3}];
   cultureList = [{name: "Standard", value: 0}, {name: "Jonapur", value: 1}, {name: "Akros", value: 2}, {name: "Twin Cities", value: 3}];
   audiofiles = [new Audio(this.audiolocal + "gold.wav"), new Audio(this.audiolocal + "ring.wav"), new Audio(this.audiolocal + "flippy.wav"), new Audio(this.audiolocal + "potiondrink.wav"), new Audio(this.audiolocal + "rare.wav"), new Audio(this.audiolocal + "handofgod.wav"), new Audio(this.audiolocal + "portalcast.wav")];
@@ -39,7 +40,7 @@ export class TroveComponent implements OnInit {
   prettyprint = [];
   runningTotal = 0;
 
-  constructor(private http: HttpClient, private ngxXml2jsonService: NgxXml2jsonService, private route: ActivatedRoute, public dialog: MatDialog) { 
+  constructor(private fakeabase: FakeabaseService, private ngxXml2jsonService: NgxXml2jsonService, private route: ActivatedRoute, public dialog: MatDialog) { 
     this.headers = this.headers.append('Content-Type', 'text/xml');
     this.headers = this.headers.append('Accept', 'text/xml');
 
@@ -106,7 +107,7 @@ export class TroveComponent implements OnInit {
     this.trove = [];
     this.prettyprint = [];
 
-    this.http.get<any[]>(this.remote + '/roll-item' + ((this.seed) ? "/" + this.seed : "") + "?tier=" + (this.tier.value+1)).subscribe(async xml => {
+    this.fakeabase.rollItems(this.tier.value+1, this.seed).subscribe(async xml => {
       this.prevseed = xml[0].seed;
       this.seed = null;
 

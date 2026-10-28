@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 
 import { MatSelectChange } from '@angular/material/select';
+
+import { FakeabaseService } from '../fakeabase.service';
 
 @Component({
   selector: 'app-encounter',
@@ -9,7 +10,6 @@ import { MatSelectChange } from '@angular/material/select';
   styleUrls: ['./encounter.component.css']
 })
 export class EncounterComponent implements OnInit {
-  private url = 'https://eaknep3ofh.execute-api.us-east-1.amazonaws.com/bfapi';
   biomes = [
     {name: "Arctic", levels: ["Level Range 1-4", "Level Range 5-10", "Level Range 11-16", "Level Range 17-20"]},
     {name: "Coastal", levels: ["Level Range 1-4", "Level Range 5-10", "Level Range 11-16", "Level Range 17-20"]},
@@ -29,7 +29,7 @@ export class EncounterComponent implements OnInit {
 
   tierSelect;
 
-  constructor(private http: HttpClient) {
+  constructor(private fakeabase: FakeabaseService) {
   }
 
   ngOnInit(): void {
@@ -54,17 +54,9 @@ export class EncounterComponent implements OnInit {
   }
 
   rollEncounter()  {
-    var weight;
     var formatted = this.bookmark.name.toLowerCase() + "." + this.chosenRange.replace(/\s/g, '').toLowerCase();
-    this.http.get(this.url + '/get-biome-weight/' + formatted).subscribe( async xml =>  {
-      console.log(xml["Items"][0].weight.N);
-      weight = xml["Items"][0].weight.N;
-
-      var rolled = Math.floor(Math.random() * weight);
-
-      this.http.get(this.url + '/roll-encounter/' + formatted + "?weight=" + rolled).subscribe( async xml =>  {
-        this.encounter = {desc: xml["Items"][0].name.S, rolled: rolled, max: weight};
-      })
+    this.fakeabase.rollEncounter(formatted).subscribe(encounter => {
+      this.encounter = encounter;
     });
   }
 }
